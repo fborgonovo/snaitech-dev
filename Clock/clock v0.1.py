@@ -13,7 +13,7 @@ from time import strftime
 
 # creating tkinter window
 root = Tk()
-root.iconbitmap('F:/SNAITECH dev/Workspaces/Clock/res/Oxygen-Icons.org-Oxygen-Apps-clock.ico')
+root.iconbitmap('C:/Users/borgonovo_furio/OneDrive - Playtech/Documents/snaitech-dev/Clock/res/Oxygen-Icons.org-Oxygen-Apps-clock.ico')
 root.title('Clock')
 
 # This function is used to display time on the label
