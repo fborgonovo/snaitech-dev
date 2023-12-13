@@ -1,0 +1,20 @@
+2023-02-07 15:16:56 DEBUG    __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_main.py:29:
+	
+
+***  STARTING  TIMETABLE  ***
+             st              
+
+2023-02-07 15:17:26 DEBUG    __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_main.py:29:
+	
+
+***  STARTING  TIMETABLE  ***
+      23/02/07 15:17:24      
+
+2023-02-07 15:18:25 DEBUG    __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_main.py:29:
+	
+
+***  STARTING  TIMETABLE  ***
+      23/02/07 15:18:22      
+
+2023-02-07 18:23:58 DEBUG    __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_main.py:39:
+	Connecting to tt_db. Creating if it does not exist

@@ -1,0 +1,62 @@
+{
+  "auth": {
+    "type": "oauth2",
+    "oauth2": [
+      {
+        "key": "tokenName",
+        "value": "{{access_token}}",
+        "type": "string"
+      },
+      {
+        "key": "tokenType",
+        "value": "bearer",
+        "type": "string"
+      },
+      {
+        "key": "accessToken",
+        "value": "40f7dc0d-324e-49a3-a33b-acb21739d4c0",
+        "type": "string"
+      },
+      {
+        "key": "accessTokenUrl",
+        "value": "{{AuthURL}}",
+        "type": "string"
+      },
+      {
+        "key": "password",
+        "value": "{{User_Password}}",
+        "type": "string"
+      },
+      {
+        "key": "username",
+        "value": "{{User_Name}}",
+        "type": "string"
+      },
+      {
+        "key": "clientSecret",
+        "value": "{{Client_Secret}}",
+        "type": "string"
+      },
+      {
+        "key": "clientId",
+        "value": "{{Client_ID}}",
+        "type": "string"
+      },
+      {
+        "key": "grant_type",
+        "value": "password_credentials",
+        "type": "string"
+      },
+      {
+        "key": "client_authentication",
+        "value": "body",
+        "type": "string"
+      },
+      {
+        "key": "addTokenTo",
+        "value": "header",
+        "type": "string"
+      }
+    ]
+  }
+}

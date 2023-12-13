@@ -1,0 +1,47 @@
+
+
+1) Conto di gioco numero : 6031980030000299 (limite di versamento impostato a 5.000 € settimanali)
+Username:PirandelloSnai
+Password:Provatest1
+Domanda segreta: nome madre: Maria
+
+
+2) Conto di gioco numero : 6031980030000308 (limite di versamento impostato a 10.000 € settimanali)
+Username:GiuseppeUngarettiSnai
+Password:Provatest3
+Domanda segreta: nome madre: Maria
+
+
+3) Conto di gioco numero : 6031980030000309 (limite di versamento impostato a 5000 € settimanale, Conto sospeso)
+Username:SalvatoreQuasimodoSnai
+Password:Provatest4
+Domanda segreta: nome madre: Maria
+
+
+4) Conto di gioco numero : 6031980030000310 (limite di versamento impostato a 5000 € settimanali)
+Username:EugenioMontaleSnai
+Password:Provatest5
+Domanda segreta: nome madre: Maria
+
+
+5) Conto di gioco numero: 6031980030000311 (limite di versamento impostato a 1000 € settimanali)
+Username:DinoBuzzatiSnai
+Password:Provatest6
+Domanda segreta: nome madre: Maria
+
+
+
+CASI:
+- limiti di versamento superati
+- Conto sospeso
+- Nome ordinante diverso dal numero del conto inserito
+- Nome ordinante uguale al numero di conto inserito
+- Numero di conto inserito solo ultime 8 cifre
+- Numero di conto inserito totale di 16 cifre
+
+Conti:
+  6031980030000299
+  6031980030000308
+  6031980030000309
+  6031980030000310
+  6031980030000311

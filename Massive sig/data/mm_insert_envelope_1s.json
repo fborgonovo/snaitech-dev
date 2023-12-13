@@ -1,0 +1,89 @@
+{
+  "envelope": {
+      "useType": "CORPORATE",
+      "externalId": "{{EnvelopeID}}",
+      "subject": "Document signature (Diego Zorro)",
+      "sysGenerator": "{{DMS_SysGen}}",
+      "sendingMode": "IMMEDIATE",
+      "trustLevel": "DIGITAL_PDF",
+      "starred": true,
+      "expirationFirstReminder": 3,
+      "expireAt": 2618619519000,
+      "confString": null,
+      "joinDocuments": null,
+      "documents": [
+          {
+              "externalId": "{{EnvelopeID}}_01",
+              "title": "{{Doc1_Title}}",
+              "mimeType": "application/pdf",
+              "originalFname": "{{Doc1_FName}}",
+              "uri": null,
+              "bytes": "{{Doc1_Content}}"
+          }
+      ],
+      "docClass": null,
+      "commonMessages": {
+          "text": "Please, sign the attached document.",
+          "userMessages": null
+      },
+      "procDef": {
+          "tasks": [
+              {
+                  "type": "HUMAN",
+                  "confString": "{\"receiveInvitationMailToSign\":true,\"receiveCompletedEnvelopeMail\":true,“signAllVisible”:”N”}",
+                  "order": 1,
+                  "actorExpr": "{{Stranger_email}}U",
+                  "action": "WORK",
+                  "howMany": 1,
+                  "actionDefs": [
+                      {
+                          "docExternalId": "{{EnvelopeID}}_01",
+                          "type": "SIGN",
+                          "mandatory": true,
+                          "confString": null,
+                          "appearance": {
+                              "invisible": false,
+                              "annotationContent": null,
+                              "tagAppearance": {
+                                  "cornerType": "SINGLE_BOTTOM_LEFT_CORNER_TYPE",
+                                  "startTagPattern": "{{Doc1_Tag}}",
+                                  "xoffset": 0.0,
+                                  "yoffset": 0.0
+                              }
+                          }
+                      }
+                  ]
+              }
+          ],
+          "newUsers": [
+              {
+                  "username": "{{Stranger_email}}",
+                  "name": "{{Stranger_Name}}",
+                  "surname": "{{Stranger_Surename}}",
+                  "phoneNumber": "{{Stranger_Phone}}",
+                  "email": "{{Stranger_email}}",
+                  "emailLanguage": "EN",
+                  "timezone": "Europe/Rome",
+                  "countryCode": "IT",
+                  "serialType": "TIN",
+                  "fiscalCode": "{{Stranger_ID}}",
+                  "externalId": "{{Stranger_email}}",
+                  "newUserStrategy": "EMAIL_BASED",
+                  "roles": [
+                      "STRANGER"
+                  ]
+              }
+          ]
+      }
+  },
+  "addUsersInCC": [
+      {
+          "externalId": "fabio.carnevale@infocert.it",
+          "email": "fabio.carnevale@infocert.it",
+          "surname": "User Surname",
+          "name": "User Name",
+          "addUsersInCCStrategy": "EMAIL_ALWAYS"
+      }
+  ],
+  "responseWithEnvelope": false
+}

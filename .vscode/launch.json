@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: tkdesigner",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args":["--output=C:/Users/borgonovo_furio/OneDrive - Playtech/Documents/snaitech-dev/Test/Tkinter-Designer/tests/tktest.py",
+                    "--file_url=https://www.figma.com/file/M4zF7H5UQ1JWjgmQl2uk2k/tktest?type=design&mode=design&t=EY1s38Grq7RcJaWV-1",
+                    "--token=figd_fdjlB_Kk4TVW15xZHhoHY3j7Zbimamu1TjW7mHFC"],
+            "env": {"name":"value"}
+        }
+    ]
+}

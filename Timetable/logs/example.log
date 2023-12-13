@@ -1,0 +1,214 @@
+INFO:tt_algo:Current Directory: C:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev
+INFO:tt_algo:... generating ...
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 6A ('', 4, 'Mrs. Shilpa M K', 'CG')
+INFO:tt_algo:no free slots for 6A ('', 4, 'Mr. Sudeepa K B', 'CN')
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 6B ('', 4, 'Mr. Ramesha Shettigar', 'JIT')
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 6C ('', 4, 'Mr. Pawan Hegde', 'CG')
+INFO:tt_algo:no free slots for 6C ('', 4, 'Mr. Vijay Murari T', 'CN')
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 6D ('', 4, 'Mr. Sampath Kini', 'JIT')
+INFO:tt_algo:
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 4B ('Unix Programming', 4, 'Mrs. Shabari Shedthi B', 'Unix')
+INFO:tt_algo:
+INFO:tt_algo:
+INFO:tt_algo:... adjusting clashes ...
+INFO:tt_algo:6B ('', 4, 'Mr. Sannidhan M S', 'CG')
+INFO:tt_algo:4A ('Finite Automata & Formal languages', 4, 'Mr. Ravi B', 'FAFL')
+INFO:tt_algo:4A ('Finite Automata & Formal languages', 4, 'Mr. Ravi B', 'FAFL')
+INFO:tt_algo:6B ('', 3, 'Mrs. Rajalaxmi Hegde', 'ST')
+INFO:tt_algo:4A ('Design & Analysis of Algorithms', 4, 'Mr. Venugopala P S', 'DAA')
+INFO:tt_algo:5
+INFO:tt_algo:... 2nd pass ...
+INFO:tt_algo:0
+INFO:tt_algo:4A                   9:00-9:55            9:55-10:50           11:10-12:05          12:05-1:00           1:00-1:55            1:55-2:50            2:50-3:40            3:40-4:30            
+INFO:tt_algo:monday               DAA                  Maths                ESC                  ESC                  -                    DAA                  DC                   CO                  
+INFO:tt_algo:tuesday              DAA                  DC                   FAFL                 -                    -                    Maths                CO                   FAFL                
+INFO:tt_algo:wednesday            FAFL                 DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab         -                    DC                   Unix                 FAFL                
+INFO:tt_algo:thursday             CO                   Unix                 Unix                 Maths                -                    -                    -                    -                   
+INFO:tt_algo:friday               DAA                  DC                   CO                   -                    -                    DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab        
+INFO:tt_algo:saturday             Unix                 -                    Maths                -                   
+INFO:tt_algo:
+
+INFO:tt_algo:4B                   9:00-9:55            9:55-10:50           11:10-12:05          12:05-1:00           1:00-1:55            1:55-2:50            2:50-3:40            3:40-4:30            
+INFO:tt_algo:monday               Unix                 DAA                  FAFL                 DC                   -                    DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab        
+INFO:tt_algo:tuesday              DC                   DAA                  Unix                 Maths                -                    FAFL                 CO                   -                   
+INFO:tt_algo:wednesday            DC                   Unix                 ESC                  ESC                  -                    Maths                CO                   -                   
+INFO:tt_algo:thursday             Maths                FAFL                 DAA                  CO                   -                    -                    -                    -                   
+INFO:tt_algo:friday               DC                   DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab         -                    Unix                 CO                   -                   
+INFO:tt_algo:saturday             Maths                FAFL                 DAA                  -                   
+INFO:tt_algo:
+
+INFO:tt_algo:4C                   9:00-9:55            9:55-10:50           11:10-12:05          12:05-1:00           1:00-1:55            1:55-2:50            2:50-3:40            3:40-4:30            
+INFO:tt_algo:monday               DAA                  FAFL                 DC                   CO                   -                    Maths                Unix                 -                   
+INFO:tt_algo:tuesday              Unix                 DAA                  FAFL                 Maths                -                    DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab        
+INFO:tt_algo:wednesday            DC                   CO                   Unix                 DAA                  -                    Maths                ESC                  ESC                 
+INFO:tt_algo:thursday             DC                   Maths                CO                   FAFL                 -                    -                    -                    -                   
+INFO:tt_algo:friday               Unix                 DAA                  FAFL                 CO                   -                    DC                   -                    -                   
+INFO:tt_algo:saturday             DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab         -                   
+INFO:tt_algo:
+
+INFO:tt_algo:4D                   9:00-9:55            9:55-10:50           11:10-12:05          12:05-1:00           1:00-1:55            1:55-2:50            2:50-3:40            3:40-4:30            
+INFO:tt_algo:monday               DAA                  FAFL                 DC                   CO                   -                    Maths                Unix                 -                   
+INFO:tt_algo:tuesday              -                    DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab         -                    Maths                Unix                 -                   
+INFO:tt_algo:wednesday            DAA                  FAFL                 DC                   CO                   -                    DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab        
+INFO:tt_algo:thursday             Unix                 DAA                  Maths                FAFL                 -                    -                    -                    -                   
+INFO:tt_algo:friday               DC                   CO                   Unix                 Maths                -                    DAA                  ESC                  ESC                 
+INFO:tt_algo:saturday             FAFL                 DC                   CO                   -                   
+INFO:tt_algo:
+
+INFO:tt_algo:6A                   9:00-9:55            9:55-10:50           11:10-12:05          12:05-1:00           1:00-1:55            1:55-2:50            2:50-3:40            3:40-4:30            
+INFO:tt_algo:monday               JIT                  CG/CN Lab            CG/CN Lab            CG/CN Lab            -                    CG                   CN                   CG                  
+INFO:tt_algo:tuesday              CN                   JIT                  ST                   CCIM                 -                    JIT Lab              JIT Lab              JIT Lab             
+INFO:tt_algo:wednesday            ESD                  CG/CN Lab            CG/CN Lab            CG/CN Lab            -                    CG                   CN                   -                   
+INFO:tt_algo:thursday             JIT                  CCIM                 MC                   ST                   -                    -                    -                    -                   
+INFO:tt_algo:friday               CG                   CN                   JIT                  MC                   -                    JIT Lab              JIT Lab              JIT Lab             
+INFO:tt_algo:saturday             MC                   CCIM                 ST                   -                   
+INFO:tt_algo:
+
+INFO:tt_algo:6B                   9:00-9:55            9:55-10:50           11:10-12:05          12:05-1:00           1:00-1:55            1:55-2:50            2:50-3:40            3:40-4:30            
+INFO:tt_algo:monday               CG                   ST                   CN                   CG                   -                    JIT Lab              JIT Lab              JIT Lab             
+INFO:tt_algo:tuesday              CG/CN Lab            CG/CN Lab            CG/CN Lab            CCIM                 -                    CN                   CG                   JIT                 
+INFO:tt_algo:wednesday            ST                   ESD                  CN                   JIT                  -                    JIT Lab              JIT Lab              JIT Lab             
+INFO:tt_algo:thursday             CN                   CCIM                 MC                   ST                   -                    -                    -                    -                   
+INFO:tt_algo:friday               CG/CN Lab            CG/CN Lab            CG/CN Lab            MC                   -                    JIT                  -                    JIT                 
+INFO:tt_algo:saturday             MC                   CCIM                 CG                   -                   
+INFO:tt_algo:
+
+INFO:tt_algo:6C                   9:00-9:55            9:55-10:50           11:10-12:05          12:05-1:00           1:00-1:55            1:55-2:50            2:50-3:40            3:40-4:30            
+INFO:tt_algo:monday               JIT Lab              JIT Lab              JIT Lab              CG                   -                    CG                   JIT                  CN                  
+INFO:tt_algo:tuesday              CN                   ST                   JIT                  CCIM                 -                    CG/CN Lab            CG/CN Lab            CG/CN Lab           
+INFO:tt_algo:wednesday            JIT Lab              JIT Lab              JIT Lab              CG                   -                    CN                   ESD                  -                   
+INFO:tt_algo:thursday             JIT                  CCIM                 MC                   ST                   -                    -                    -                    -                   
+INFO:tt_algo:friday               CG                   CN                   JIT                  MC                   -                    CG/CN Lab            CG/CN Lab            CG/CN Lab           
+INFO:tt_algo:saturday             MC                   CCIM                 ST                   -                   
+INFO:tt_algo:
+
+INFO:tt_algo:6D                   9:00-9:55            9:55-10:50           11:10-12:05          12:05-1:00           1:00-1:55            1:55-2:50            2:50-3:40            3:40-4:30            
+INFO:tt_algo:monday               JIT                  CN                   JIT                  CG                   -                    CG/CN Lab            CG/CN Lab            CG/CN Lab           
+INFO:tt_algo:tuesday              JIT Lab              JIT Lab              JIT Lab              CCIM                 -                    ESD                  CG                   CN                  
+INFO:tt_algo:wednesday            CG                   CN                   JIT                  ST                   -                    CG/CN Lab            CG/CN Lab            CG/CN Lab           
+INFO:tt_algo:thursday             CG                   CCIM                 MC                   CN                   -                    -                    -                    -                   
+INFO:tt_algo:friday               JIT Lab              JIT Lab              JIT Lab              MC                   -                    JIT                  ST                   -                   
+INFO:tt_algo:saturday             MC                   CCIM                 ST                   -                   
+INFO:tt_algo:
+
+INFO:tt_algo:Mr. Venugopal        9:00-9:55            9:55-10:50           11:10-12:05          12:05-1:00           1:00-1:55            1:55-2:50            2:50-3:40            3:40-4:30            
+INFO:tt_algo:monday               DAA (4A)             -                    -                    -                    -                    DAA (4A)             -                    -                   
+INFO:tt_algo:tuesday              DAA (4A)             -                    -                    CCIM (6C)            -                    -                    -                    -                   
+INFO:tt_algo:wednesday            -                    DAA/Unix Lab (4A)    DAA/Unix Lab (4A)    DAA/Unix Lab (4A)    -                    -                    -                    -                   
+INFO:tt_algo:thursday             -                    CCIM (6C)            -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:friday               DAA (4A)             -                    -                    -                    -                    DAA/Unix Lab (4A)    DAA/Unix Lab (4A)    DAA/Unix Lab (4A)   
+INFO:tt_algo:saturday             -                    CCIM (6C)            -                    -                   
+INFO:tt_algo:
+
+INFO:tt_algo:Current Directory: C:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev
+INFO:tt_algo:... generating ...
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 6A ('', 4, 'Mrs. Shilpa M K', 'CG')
+INFO:tt_algo:no free slots for 6A ('', 4, 'Mr. Sudeepa K B', 'CN')
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 6B ('', 4, 'Mr. Ramesha Shettigar', 'JIT')
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 6C ('', 4, 'Mr. Pawan Hegde', 'CG')
+INFO:tt_algo:no free slots for 6C ('', 4, 'Mr. Vijay Murari T', 'CN')
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 6D ('', 4, 'Mr. Sampath Kini', 'JIT')
+INFO:tt_algo:
+INFO:tt_algo:
+INFO:tt_algo:no free slots for 4B ('Unix Programming', 4, 'Mrs. Shabari Shedthi B', 'Unix')
+INFO:tt_algo:
+INFO:tt_algo:
+INFO:tt_algo:... adjusting clashes ...
+INFO:tt_algo:6B ('', 4, 'Mr. Sannidhan M S', 'CG')
+INFO:tt_algo:4A ('Finite Automata & Formal languages', 4, 'Mr. Ravi B', 'FAFL')
+INFO:tt_algo:4A ('Finite Automata & Formal languages', 4, 'Mr. Ravi B', 'FAFL')
+INFO:tt_algo:6B ('', 3, 'Mrs. Rajalaxmi Hegde', 'ST')
+INFO:tt_algo:4A ('Design & Analysis of Algorithms', 4, 'Mr. Venugopala P S', 'DAA')
+INFO:tt_algo:5
+INFO:tt_algo:... 2nd pass ...
+INFO:tt_algo:0
+INFO:tt_algo:4A                   9:00-9:55            9:55-10:50           11:10-12:05          12:05-1:00           1:00-1:55            1:55-2:50            2:50-3:40            3:40-4:30            
+INFO:tt_algo:monday               DAA                  Maths                ESC                  ESC                  -                    DAA                  DC                   CO                  
+INFO:tt_algo:tuesday              DAA                  DC                   FAFL                 -                    -                    Maths                CO                   FAFL                
+INFO:tt_algo:wednesday            FAFL                 DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab         -                    DC                   Unix                 FAFL                
+INFO:tt_algo:thursday             CO                   Unix                 Unix                 Maths                -                    -                    -                    -                   
+INFO:tt_algo:friday               DAA                  DC                   CO                   -                    -                    DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab        
+INFO:tt_algo:saturday             Unix                 -                    Maths                -                   
+INFO:tt_algo:
+
+INFO:tt_algo:4B                   9:00-9:55            9:55-10:50           11:10-12:05          12:05-1:00           1:00-1:55            1:55-2:50            2:50-3:40            3:40-4:30            
+INFO:tt_algo:monday               Unix                 DAA                  FAFL                 DC                   -                    DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab        
+INFO:tt_algo:tuesday              DC                   DAA                  Unix                 Maths                -                    FAFL                 CO                   -                   
+INFO:tt_algo:wednesday            DC                   Unix                 ESC                  ESC                  -                    Maths                CO                   -                   
+INFO:tt_algo:thursday             Maths                FAFL                 DAA                  CO                   -                    -                    -                    -                   
+INFO:tt_algo:friday               DC                   DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab         -                    Unix                 CO                   -                   
+INFO:tt_algo:saturday             Maths                FAFL                 DAA                  -                   
+INFO:tt_algo:
+
+INFO:tt_algo:4C                   9:00-9:55            9:55-10:50           11:10-12:05          12:05-1:00           1:00-1:55            1:55-2:50            2:50-3:40            3:40-4:30            
+INFO:tt_algo:monday               DAA                  FAFL                 DC                   CO                   -                    Maths                Unix                 -                   
+INFO:tt_algo:tuesday              Unix                 DAA                  FAFL                 Maths                -                    DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab        
+INFO:tt_algo:wednesday            DC                   CO                   Unix                 DAA                  -                    Maths                ESC                  ESC                 
+INFO:tt_algo:thursday             DC                   Maths                CO                   FAFL                 -                    -                    -                    -                   
+INFO:tt_algo:friday               Unix                 DAA                  FAFL                 CO                   -                    DC                   -                    -                   
+INFO:tt_algo:saturday             DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab         -                   
+INFO:tt_algo:
+
+INFO:tt_algo:4D                   9:00-9:55            9:55-10:50           11:10-12:05          12:05-1:00           1:00-1:55            1:55-2:50            2:50-3:40            3:40-4:30            
+INFO:tt_algo:monday               DAA                  FAFL                 DC                   CO                   -                    Maths                Unix                 -                   
+INFO:tt_algo:tuesday              -                    DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab         -                    Maths                Unix                 -                   
+INFO:tt_algo:wednesday            DAA                  FAFL                 DC                   CO                   -                    DAA/Unix Lab         DAA/Unix Lab         DAA/Unix Lab        
+INFO:tt_algo:thursday             Unix                 DAA                  Maths                FAFL                 -                    -                    -                    -                   
+INFO:tt_algo:friday               DC                   CO                   Unix                 Maths                -                    DAA                  ESC                  ESC                 
+INFO:tt_algo:saturday             FAFL                 DC                   CO                   -                   
+INFO:tt_algo:
+
+INFO:tt_algo:6A                   9:00-9:55            9:55-10:50           11:10-12:05          12:05-1:00           1:00-1:55            1:55-2:50            2:50-3:40            3:40-4:30            
+INFO:tt_algo:monday               JIT                  CG/CN Lab            CG/CN Lab            CG/CN Lab            -                    CG                   CN                   CG                  
+INFO:tt_algo:tuesday              CN                   JIT                  ST                   CCIM                 -                    JIT Lab              JIT Lab              JIT Lab             
+INFO:tt_algo:wednesday            ESD                  CG/CN Lab            CG/CN Lab            CG/CN Lab            -                    CG                   CN                   -                   
+INFO:tt_algo:thursday             JIT                  CCIM                 MC                   ST                   -                    -                    -                    -                   
+INFO:tt_algo:friday               CG                   CN                   JIT                  MC                   -                    JIT Lab              JIT Lab              JIT Lab             
+INFO:tt_algo:saturday             MC                   CCIM                 ST                   -                   
+INFO:tt_algo:
+
+INFO:tt_algo:6B                   9:00-9:55            9:55-10:50           11:10-12:05          12:05-1:00           1:00-1:55            1:55-2:50            2:50-3:40            3:40-4:30            
+INFO:tt_algo:monday               CG                   ST                   CN                   CG                   -                    JIT Lab              JIT Lab              JIT Lab             
+INFO:tt_algo:tuesday              CG/CN Lab            CG/CN Lab            CG/CN Lab            CCIM                 -                    CN                   CG                   JIT                 
+INFO:tt_algo:wednesday            ST                   ESD                  CN                   JIT                  -                    JIT Lab              JIT Lab              JIT Lab             
+INFO:tt_algo:thursday             CN                   CCIM                 MC                   ST                   -                    -                    -                    -                   
+INFO:tt_algo:friday               CG/CN Lab            CG/CN Lab            CG/CN Lab            MC                   -                    JIT                  -                    JIT                 
+INFO:tt_algo:saturday             MC                   CCIM                 CG                   -                   
+INFO:tt_algo:
+
+INFO:tt_algo:6C                   9:00-9:55            9:55-10:50           11:10-12:05          12:05-1:00           1:00-1:55            1:55-2:50            2:50-3:40            3:40-4:30            
+INFO:tt_algo:monday               JIT Lab              JIT Lab              JIT Lab              CG                   -                    CG                   JIT                  CN                  
+INFO:tt_algo:tuesday              CN                   ST                   JIT                  CCIM                 -                    CG/CN Lab            CG/CN Lab            CG/CN Lab           
+INFO:tt_algo:wednesday            JIT Lab              JIT Lab              JIT Lab              CG                   -                    CN                   ESD                  -                   
+INFO:tt_algo:thursday             JIT                  CCIM                 MC                   ST                   -                    -                    -                    -                   
+INFO:tt_algo:friday               CG                   CN                   JIT                  MC                   -                    CG/CN Lab            CG/CN Lab            CG/CN Lab           
+INFO:tt_algo:saturday             MC                   CCIM                 ST                   -                   
+INFO:tt_algo:
+
+INFO:tt_algo:6D                   9:00-9:55            9:55-10:50           11:10-12:05          12:05-1:00           1:00-1:55            1:55-2:50            2:50-3:40            3:40-4:30            
+INFO:tt_algo:monday               JIT                  CN                   JIT                  CG                   -                    CG/CN Lab            CG/CN Lab            CG/CN Lab           
+INFO:tt_algo:tuesday              JIT Lab              JIT Lab              JIT Lab              CCIM                 -                    ESD                  CG                   CN                  
+INFO:tt_algo:wednesday            CG                   CN                   JIT                  ST                   -                    CG/CN Lab            CG/CN Lab            CG/CN Lab           
+INFO:tt_algo:thursday             CG                   CCIM                 MC                   CN                   -                    -                    -                    -                   
+INFO:tt_algo:friday               JIT Lab              JIT Lab              JIT Lab              MC                   -                    JIT                  ST                   -                   
+INFO:tt_algo:saturday             MC                   CCIM                 ST                   -                   
+INFO:tt_algo:
+
+INFO:tt_algo:Mr. Venugopal        9:00-9:55            9:55-10:50           11:10-12:05          12:05-1:00           1:00-1:55            1:55-2:50            2:50-3:40            3:40-4:30            
+INFO:tt_algo:monday               DAA (4A)             -                    -                    -                    -                    DAA (4A)             -                    -                   
+INFO:tt_algo:tuesday              DAA (4A)             -                    -                    CCIM (6C)            -                    -                    -                    -                   
+INFO:tt_algo:wednesday            -                    DAA/Unix Lab (4A)    DAA/Unix Lab (4A)    DAA/Unix Lab (4A)    -                    -                    -                    -                   
+INFO:tt_algo:thursday             -                    CCIM (6C)            -                    -                    -                    -                    -                    -                   
+INFO:tt_algo:friday               DAA (4A)             -                    -                    -                    -                    DAA/Unix Lab (4A)    DAA/Unix Lab (4A)    DAA/Unix Lab (4A)   
+INFO:tt_algo:saturday             -                    CCIM (6C)            -                    -                   
+INFO:tt_algo:
+

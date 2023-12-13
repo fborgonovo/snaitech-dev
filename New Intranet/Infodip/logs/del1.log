@@ -1,0 +1,74 @@
+﻿2020-03-02 18:57:10 INFO: *** Begin delRemovedRecords
+2020-03-02 18:57:10 INFO: Executing SELECT * FROM [dipendenti].[test].[dipendentiAD] command.
+2020-03-02 18:57:12 INFO: *** Begin delRecord
+2020-03-02 18:57:12 INFO: Executing DELETE FROM [dipendenti].[test].[dipendentiAD] WHERE [mail] = 'alessandro.algeri@snaitech.it' command.
+2020-03-02 18:57:12 INFO: *** End delRecord
+2020-03-02 18:57:25 INFO: *** Begin delRecord
+2020-03-02 18:57:25 INFO: Executing DELETE FROM [dipendenti].[test].[dipendentiAD] WHERE [mail] = 'cristina.bota@teleippica.it' command.
+2020-03-02 18:57:25 INFO: *** End delRecord
+2020-03-02 18:57:28 INFO: *** Begin delRecord
+2020-03-02 18:57:28 INFO: Executing DELETE FROM [dipendenti].[test].[dipendentiAD] WHERE [mail] = 'noadia.buzzoni@snaitech.it' command.
+2020-03-02 18:57:28 INFO: *** End delRecord
+2020-03-02 18:57:30 INFO: *** Begin delRecord
+2020-03-02 18:57:30 INFO: Executing DELETE FROM [dipendenti].[test].[dipendentiAD] WHERE [mail] = 'rita.canfora@snaitech.it' command.
+2020-03-02 18:57:30 INFO: *** End delRecord
+2020-03-02 18:57:33 INFO: *** Begin delRecord
+2020-03-02 18:57:33 INFO: Executing DELETE FROM [dipendenti].[test].[dipendentiAD] WHERE [mail] = 'giovanni.carrieri@snaitech.it' command.
+2020-03-02 18:57:33 INFO: *** End delRecord
+2020-03-02 18:57:37 INFO: *** Begin delRecord
+2020-03-02 18:57:37 INFO: Executing DELETE FROM [dipendenti].[test].[dipendentiAD] WHERE [mail] = 'fabriziaalessandra.cinali@snaitech.it' command.
+2020-03-02 18:57:37 INFO: *** End delRecord
+2020-03-02 18:57:39 INFO: *** Begin delRecord
+2020-03-02 18:57:39 INFO: Executing DELETE FROM [dipendenti].[test].[dipendentiAD] WHERE [mail] = 'alessandra.colletti@snaireteitalia.it' command.
+2020-03-02 18:57:39 INFO: *** End delRecord
+2020-03-02 18:57:49 INFO: *** Begin delRecord
+2020-03-02 18:57:49 INFO: Executing DELETE FROM [dipendenti].[test].[dipendentiAD] WHERE [mail] = 'chiara.dellacqua@snaitech.it' command.
+2020-03-02 18:57:49 INFO: *** End delRecord
+2020-03-02 18:58:15 INFO: *** Begin delRecord
+2020-03-02 18:58:15 INFO: Executing DELETE FROM [dipendenti].[test].[dipendentiAD] WHERE [mail] = 'monica.mancuso@snaitech.it' command.
+2020-03-02 18:58:15 INFO: *** End delRecord
+2020-03-02 18:58:19 INFO: *** Begin delRecord
+2020-03-02 18:58:19 INFO: Executing DELETE FROM [dipendenti].[test].[dipendentiAD] WHERE [mail] = 'angelo.martini@snaitech.it' command.
+2020-03-02 18:58:19 INFO: *** End delRecord
+2020-03-02 18:58:45 INFO: *** Begin delRecord
+2020-03-02 18:58:45 INFO: Executing DELETE FROM [dipendenti].[test].[dipendentiAD] WHERE [mail] = 'marco.riva@snaitech.it' command.
+2020-03-02 18:58:45 INFO: *** End delRecord
+2020-03-02 18:58:47 INFO: *** Begin delRecord
+2020-03-02 18:58:47 INFO: Executing DELETE FROM [dipendenti].[test].[dipendentiAD] WHERE [mail] = 'debora.rossi@snaitech.it' command.
+2020-03-02 18:58:47 INFO: *** End delRecord
+2020-03-02 18:58:56 INFO: *** Begin delRecord
+2020-03-02 18:58:56 INFO: Executing DELETE FROM [dipendenti].[test].[dipendentiAD] WHERE [mail] = 'mario.sussi@teleippica.it' command.
+2020-03-02 18:58:56 INFO: *** End delRecord
+2020-03-02 18:58:58 INFO: *** Begin delRecord
+2020-03-02 18:58:58 INFO: Executing DELETE FROM [dipendenti].[test].[dipendentiAD] WHERE [mail] = 'suyen.tommasi@teleippica.it' command.
+2020-03-02 18:58:58 INFO: *** End delRecord
+2020-03-02 18:59:06 INFO: *** Begin delRecord
+2020-03-02 18:59:06 INFO: Executing DELETE FROM [dipendenti].[test].[dipendentiAD] WHERE [mail] = 'serena.andreella@areascom.it' command.
+2020-03-02 18:59:06 INFO: *** End delRecord
+2020-03-02 18:59:07 INFO: *** Begin delRecord
+2020-03-02 18:59:07 INFO: Executing DELETE FROM [dipendenti].[test].[dipendentiAD] WHERE [mail] = 'sara.bertolani@areascom.it' command.
+2020-03-02 18:59:07 INFO: *** End delRecord
+2020-03-02 18:59:08 INFO: *** Begin delRecord
+2020-03-02 18:59:08 INFO: Executing DELETE FROM [dipendenti].[test].[dipendentiAD] WHERE [mail] = 'donatella.boschi@areascom.it' command.
+2020-03-02 18:59:08 INFO: *** End delRecord
+2020-03-02 18:59:13 INFO: *** Begin delRecord
+2020-03-02 18:59:13 INFO: Executing DELETE FROM [dipendenti].[test].[dipendentiAD] WHERE [mail] = 'rosanna.gesualdi@areascom.it' command.
+2020-03-02 18:59:13 INFO: *** End delRecord
+2020-03-02 18:59:14 INFO: *** Begin delRecord
+2020-03-02 18:59:14 INFO: Executing DELETE FROM [dipendenti].[test].[dipendentiAD] WHERE [mail] = 'marta.giannone@areascom.it' command.
+2020-03-02 18:59:14 INFO: *** End delRecord
+2020-03-02 18:59:16 INFO: *** Begin delRecord
+2020-03-02 18:59:16 INFO: Executing DELETE FROM [dipendenti].[test].[dipendentiAD] WHERE [mail] = 'rosalia.la mantia@areascom.it' command.
+2020-03-02 18:59:16 INFO: *** End delRecord
+2020-03-02 18:59:22 INFO: *** Begin delRecord
+2020-03-02 18:59:22 INFO: Executing DELETE FROM [dipendenti].[test].[dipendentiAD] WHERE [mail] = 'letizia.mugnai@areascom.it' command.
+2020-03-02 18:59:22 INFO: *** End delRecord
+2020-03-02 18:59:25 INFO: *** Begin delRecord
+2020-03-02 18:59:25 INFO: Executing DELETE FROM [dipendenti].[test].[dipendentiAD] WHERE [mail] = 'elisabetta.pilotto@areascom.it' command.
+2020-03-02 18:59:25 INFO: *** End delRecord
+2020-03-02 18:59:25 INFO: *** Begin delRecord
+2020-03-02 18:59:25 INFO: Executing DELETE FROM [dipendenti].[test].[dipendentiAD] WHERE [mail] = 'antonella.ponzecchi@areascom.it' command.
+2020-03-02 18:59:25 INFO: *** End delRecord
+2020-03-02 18:59:27 INFO: *** Begin delRecord
+2020-03-02 18:59:27 INFO: Executing DELETE FROM [dipendenti].[test].[dipendentiAD] WHERE [mail] = 'sabrina.rasile@areascom.it' command.
+2020-03-02 18:59:27 INFO: *** End delRecord

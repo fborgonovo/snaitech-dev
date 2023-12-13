@@ -1,0 +1,2 @@
+iconv -f UTF-16LE -t UTF-8 modified.log > mod1.log
+cat mod1.log | grep 'Executing' | cut -d' ' -f5- | sed "s/ command\.//"

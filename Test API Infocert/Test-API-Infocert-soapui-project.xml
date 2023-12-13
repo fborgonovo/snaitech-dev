@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="8bacd5f8-8777-4ee4-b938-7eedfd26602b" activeEnvironment="Default" name="Test API Infocert" resourceRoot="" soapui-version="5.7.1" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>

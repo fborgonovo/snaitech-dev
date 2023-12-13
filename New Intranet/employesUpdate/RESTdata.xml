@@ -1,0 +1,1802 @@
+﻿b"<Risposta>
+    <esito>0</esito>
+    <desc></desc>
+    <dipendente/>
+    <elencoDip/>
+    <xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>SCHIAVOLIN</sn>
+            <givenName>FABIO</givenName>
+            <mail>fabio.schiavolin@snaitech.it</mail>
+            <department>Amministratore Delegato</department>
+            <description>Amministratore Delegato</description>
+            <office>Amministratore Delegato</office>
+            <jobTitle>Chief Executive Officer</jobTitle>
+            <manager>FABIO SCHIAVOLIN</manager>
+            <l>MILANO</l>
+            <streetAddress>Milano - Piazza della Repubblica,32</streetAddress>
+            <telephoneNumber>87387</telephoneNumber>
+            <mobile>348/0154789</mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|1142|1005|62|5005|845|169|28|1142|0|null||0</customAttribute6>
+            <gruppoSPOwner>SP_Amministratore_Delegato</gruppoSPOwner>
+            <gruppoSPReader/>
+            <mailDelResponsabile>fabio.schiavolin@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>1142</codDipendente>
+            <codBu>169</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>LIBERATORI</sn>
+            <givenName>FABIANO</givenName>
+            <mail>fabiano.liberatori@snaitech.it</mail>
+            <department>Area Retail VLT Certification &amp; Inspection</department>
+            <description>Funzione Retail VLT Certification &amp; Inspection</description>
+            <office>Divisione/Direzione Customer Operations, Logistic &amp; Field S.</office>
+            <jobTitle>Addetto Controllo Sale</jobTitle>
+            <manager>RAFFAELE COMITO</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via Giuseppe Lazzareschi, 7</streetAddress>
+            <telephoneNumber>81440</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|2|9130|230|5912|692|243|28|1198|0|18/12/2002||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Retail_VLT_Certification_Inspection</gruppoSPReader>
+            <mailDelResponsabile>raffaele.comito@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>2</codDipendente>
+            <codBu>243</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>MATELLI</sn>
+            <givenName>VALENTINA</givenName>
+            <mail>valentina.matelli@snaitech.it</mail>
+            <department>Area Retail Administration</department>
+            <description>Funzione Retail Administration</description>
+            <office>Divisione Betting Retail &amp; Customer Operations</office>
+            <jobTitle>Responsabile Retail Administration</jobTitle>
+            <manager>ALESSANDRO GRAZIOSI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 39</streetAddress>
+            <telephoneNumber>81717</telephoneNumber>
+            <mobile>335/7633460</mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|8|9124|224|5913|797|352|28|1364|0|01/09/2000||0</customAttribute6>
+            <gruppoSPOwner>SP_Area_Retail_Administration</gruppoSPOwner>
+            <gruppoSPReader>SP_Area_Betting_Retail_Customer_Operations</gruppoSPReader>
+            <mailDelResponsabile>alessandro.graziosi@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>8</codDipendente>
+            <codBu>352</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>DELL'IRA</sn>
+            <givenName>ELENA</givenName>
+            <mail>elena.dellira@snaitech.it</mail>
+            <department>Area Affari Generali, Segreteria e Travel</department>
+            <description>Funzione Property, Facility &amp; General Affairs</description>
+            <office>Direzione Risorse Umane ed Organizzazione</office>
+            <jobTitle>Segretaria di Direzione </jobTitle>
+            <manager>MICHELA MIRMINA</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 39</streetAddress>
+            <telephoneNumber>81245</telephoneNumber>
+            <mobile>335/7556782</mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|9|68|162|5060|695|242|28|1276|10|01/09/2000||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Affari_Generali_Segreteria_e_Travel</gruppoSPReader>
+            <mailDelResponsabile>michela.mirmina@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>9</codDipendente>
+            <codBu>242</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>SCATENA</sn>
+            <givenName>BARBARA GRAZIA</givenName>
+            <mail>barbara.scatena@snaitech.it</mail>
+            <department>Area Bilancio Consolidato e Reportistica Consolidata</department>
+            <description>Funzione Pianificazione, Budget e Controllo</description>
+            <office>Direzione Amministrazione, Finanza e Controllo</office>
+            <jobTitle>Responsabile Bilancio Consolidato e Reportistica Consolidata</jobTitle>
+            <manager>SEBASTIANO BOGNI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 57</streetAddress>
+            <telephoneNumber>81221</telephoneNumber>
+            <mobile>335/5341168</mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|10|9158|176|1|1602|252|28|1169|0|01/10/2000||0</customAttribute6>
+            <gruppoSPOwner>SP_Area_Bilancio_Consolidato_e_Reportistica_Consolidata</gruppoSPOwner>
+            <gruppoSPReader>SP_Area_Pianificazione_Budget_e_Controllo</gruppoSPReader>
+            <mailDelResponsabile>sebastiano.bogni@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>10</codDipendente>
+            <codBu>252</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>DATI</sn>
+            <givenName>ASSUNTA LORELLA</givenName>
+            <mail>lorella.dati@snaitech.it</mail>
+            <department>Area Customer Service</department>
+            <description>Funzione Customer Service</description>
+            <office>Divisione/Direzione Customer Operations, Logistic &amp; Field S.</office>
+            <jobTitle>Responsabile Customer Service</jobTitle>
+            <manager>AGATA TARANTINO</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via Giuseppe Lazzareschi, 7</streetAddress>
+            <telephoneNumber>81395</telephoneNumber>
+            <mobile>334/6490973</mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|11|9125|225|5912|799|215|28|1328|0|04/12/2000||0</customAttribute6>
+            <gruppoSPOwner>SP_Area_Customer_Service</gruppoSPOwner>
+            <gruppoSPReader>SP_Area_Customer_Operations_Logistics_Field_Services</gruppoSPReader>
+            <mailDelResponsabile>gisella.tarantino@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>11</codDipendente>
+            <codBu>215</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>CESPI POLISIANI</sn>
+            <givenName>PAOLA</givenName>
+            <mail>paola.cespi@snaitech.it</mail>
+            <department>Area Business Analysis</department>
+            <description>Funzione Commerciale</description>
+            <office>Direzione Commerciale</office>
+            <jobTitle>Business Analyst</jobTitle>
+            <manager>DINO ANANIA</manager>
+            <l>ROMA</l>
+            <streetAddress>Roma - Via Goito, 58/A</streetAddress>
+            <telephoneNumber>87631</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|13|72|174|7|403|262|28|1044|5|02/10/2001||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Business_Analysis</gruppoSPReader>
+            <mailDelResponsabile>dino.anania@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>13</codDipendente>
+            <codBu>262</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>MOSTARDA</sn>
+            <givenName>SANDRO</givenName>
+            <mail>sandro.mostarda@snaitech.it</mail>
+            <department>Area Digital Communication</department>
+            <description>Funzione Acquisition</description>
+            <office>BU Trading &amp; Digital</office>
+            <jobTitle>Responsabile Digital Communication</jobTitle>
+            <manager>FEDERICO BASTONI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 57</streetAddress>
+            <telephoneNumber>81705</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|18|174|178|5903|634|47|28|300|0|05/05/1999||0</customAttribute6>
+            <gruppoSPOwner>SP_Area_Digital_Communication</gruppoSPOwner>
+            <gruppoSPReader>SP_Area_Acquisition</gruppoSPReader>
+            <mailDelResponsabile>federico.bastoni@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>18</codDipendente>
+            <codBu>47</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>STOPPINI</sn>
+            <givenName>LORENZO</givenName>
+            <mail>lorenzo.stoppini@snaitech.it</mail>
+            <department>Area Betting Retail</department>
+            <description>Funzione Betting Retail</description>
+            <office>Divisione/BU Betting Retail</office>
+            <jobTitle>Direttore Offerta Prodotto Betting</jobTitle>
+            <manager>MARIACHIARA POLSELLI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 39</streetAddress>
+            <telephoneNumber>81417</telephoneNumber>
+            <mobile>335/7863212</mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|19|9111|219|5911|1664|223|28|1304|0|06/05/1999||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Betting_Retail</gruppoSPReader>
+            <mailDelResponsabile>mariachiara.polselli@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>19</codDipendente>
+            <codBu>223</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>TAMAGNA</sn>
+            <givenName>ELISA</givenName>
+            <mail>elisa.tamagna@snaitech.it</mail>
+            <department>Area Planning &amp; Control</department>
+            <description>Funzione Planning &amp; Control</description>
+            <office>Divisione/Direzione Customer Operations, Logistic &amp; Field S.</office>
+            <jobTitle>Responsabile Planning &amp; Control</jobTitle>
+            <manager>AGATA TARANTINO</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via Giuseppe Lazzareschi, 7</streetAddress>
+            <telephoneNumber>81460</telephoneNumber>
+            <mobile>335/7439563</mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|21|9129|229|5912|802|215|28|1328|0|01/06/1999||0</customAttribute6>
+            <gruppoSPOwner>SP_Area_Planning_Control</gruppoSPOwner>
+            <gruppoSPReader>SP_Area_Customer_Operations_Logistics_Field_Services</gruppoSPReader>
+            <mailDelResponsabile>gisella.tarantino@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>21</codDipendente>
+            <codBu>215</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>SELMI</sn>
+            <givenName>MONICA</givenName>
+            <mail>monica.selmi@snaitech.it</mail>
+            <department>Area Gestione Credito e Valutazione Rischio Clienti Massivi</department>
+            <description>Funzione Amministrazione, Bilancio e Crediti</description>
+            <office>Direzione Amministrazione, Finanza e Controllo</office>
+            <jobTitle>Addetto Gestione Credito e Valutazione Rischio Clienti</jobTitle>
+            <manager>LUCA ANSELMI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 57</streetAddress>
+            <telephoneNumber>81389</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|22|9078|175|1|671|5|28|144|11|21/06/1999||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Gestione_Credito_e_Valutazione_Rischio_Clienti_Massivi</gruppoSPReader>
+            <mailDelResponsabile>luca.anselmi@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>22</codDipendente>
+            <codBu>5</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>BALDISSERRI</sn>
+            <givenName>LUANA</givenName>
+            <mail>luana.baldisserri@snaitech.it</mail>
+            <department>Area Fraud &amp; Payments</department>
+            <description>Funzione Gaming</description>
+            <office>BU Trading &amp; Digital</office>
+            <jobTitle>Specialista Comunicazione Conti di Gioco Online</jobTitle>
+            <manager>ELISABETTA MANDRACCHIA</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 57</streetAddress>
+            <telephoneNumber>81568</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|24|154|194|5903|827|128|28|850|25|01/08/1999||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Fraud_Payments</gruppoSPReader>
+            <mailDelResponsabile>elisabetta.mandracchia@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>24</codDipendente>
+            <codBu>128</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>DE CESARI</sn>
+            <givenName>MAURIZIO</givenName>
+            <mail>maurizio.decesari@snaitech.it</mail>
+            <department>Area Retail Administration</department>
+            <description>Funzione Retail Administration</description>
+            <office>Divisione Betting Retail &amp; Customer Operations</office>
+            <jobTitle>Specialista Contratti e Anagrafica </jobTitle>
+            <manager>VALENTINA MATELLI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 39</streetAddress>
+            <telephoneNumber>81247</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|26|9124|224|5913|715|30|28|8|74|01/10/1999||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Retail_Administration</gruppoSPReader>
+            <mailDelResponsabile>valentina.matelli@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>26</codDipendente>
+            <codBu>30</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>CASTELLANO</sn>
+            <givenName>ELENA</givenName>
+            <mail>elena.castellano@snaitech.it</mail>
+            <department>Area Fraud &amp; Payments</department>
+            <description>Funzione Gaming</description>
+            <office>BU Trading &amp; Digital</office>
+            <jobTitle>Addetto Comunicazione Conti di Gioco Online</jobTitle>
+            <manager>ELISABETTA MANDRACCHIA</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 57</streetAddress>
+            <telephoneNumber>81289</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|29|154|194|5903|433|128|28|850|0|01/01/2000||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Fraud_Payments</gruppoSPReader>
+            <mailDelResponsabile>elisabetta.mandracchia@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>29</codDipendente>
+            <codBu>128</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>DE CESARI</sn>
+            <givenName>GLORIA</givenName>
+            <mail>gloria.decesari@snaitech.it</mail>
+            <department>Area Retail VLT Certification &amp; Inspection</department>
+            <description>Funzione Retail VLT Certification &amp; Inspection</description>
+            <office>Divisione/Direzione Customer Operations, Logistic &amp; Field S.</office>
+            <jobTitle>Addetto Collaudi Telematici</jobTitle>
+            <manager>RAFFAELE COMITO</manager>
+            <l>PESCHIERA BORROMEO</l>
+            <streetAddress>Peschiera Borromeo (MI)  - Via Walter Tobagi, 10/12</streetAddress>
+            <telephoneNumber>88018</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|30|9130|230|5912|434|243|28|1198|79|01/01/2000||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Retail_VLT_Certification_Inspection</gruppoSPReader>
+            <mailDelResponsabile>raffaele.comito@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>30</codDipendente>
+            <codBu>243</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>GIANNINI</sn>
+            <givenName>MICHELA</givenName>
+            <mail>michela.giannini@snaitech.it</mail>
+            <department>Area Conduzione Sala - Reparto Supervisione di Sala</department>
+            <description>Funzione Customer Service</description>
+            <office>Divisione/Direzione Customer Operations, Logistic &amp; Field S.</office>
+            <jobTitle>Operatore Call Center</jobTitle>
+            <manager>BARBARA ISCHIBONI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via Giuseppe Lazzareschi, 7</streetAddress>
+            <telephoneNumber>81857</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|31|9126|225|5912|444|342|28|1058|0|01/01/2000||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Conduzione_Sala_Reparto_Supervisione_di_Sala</gruppoSPReader>
+            <mailDelResponsabile>barbara.ischiboni@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>31</codDipendente>
+            <codBu>342</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>PAOLUCCI</sn>
+            <givenName>PAOLA</givenName>
+            <mail>paola.paolucci@snaitech.it</mail>
+            <department>Area Conduzione Sala - Reparto Supervisione di Sala</department>
+            <description>Funzione Customer Service</description>
+            <office>Divisione/Direzione Customer Operations, Logistic &amp; Field S.</office>
+            <jobTitle>Operatore Call Center</jobTitle>
+            <manager>RICCARDO DOMENICI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via Giuseppe Lazzareschi, 7</streetAddress>
+            <telephoneNumber>81543</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|32|9126|225|5912|444|340|28|1074|0|01/01/2000||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Conduzione_Sala_Reparto_Supervisione_di_Sala</gruppoSPReader>
+            <mailDelResponsabile>riccardo.domenici@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>32</codDipendente>
+            <codBu>340</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>SPILIMBERGO</sn>
+            <givenName>RAFFAELLA</givenName>
+            <mail>raffaella.spilimbergo@snaitech.it</mail>
+            <department>Area Conduzione Sala - Reparto Supervisione di Sala</department>
+            <description>Funzione Customer Service</description>
+            <office>Divisione/Direzione Customer Operations, Logistic &amp; Field S.</office>
+            <jobTitle>Operatore Call Center</jobTitle>
+            <manager>ANITA FE'</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via Giuseppe Lazzareschi, 7</streetAddress>
+            <telephoneNumber>81323</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|34|9126|225|5912|444|341|28|1071|0|01/01/2000||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Conduzione_Sala_Reparto_Supervisione_di_Sala</gruppoSPReader>
+            <mailDelResponsabile>anita.fe@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>34</codDipendente>
+            <codBu>341</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>TOSCHI</sn>
+            <givenName>PAOLA</givenName>
+            <mail>paola.toschi@snaitech.it</mail>
+            <department>Area Sistemi Corporate - Reparto Sistemi Corporate SAP</department>
+            <description>Funzione IT Operations</description>
+            <office>Direzione ICT</office>
+            <jobTitle>Specialista Sistemi Corporate SAP</jobTitle>
+            <manager>ALBERTO DI MARIA</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 39</streetAddress>
+            <telephoneNumber>81567</telephoneNumber>
+            <mobile>347/5218029</mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|36|9153|39|5300|821|137|28|935|19|01/01/2000||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Sistemi_Corporate_Reparto_Sistemi_Corporate_SAP</gruppoSPReader>
+            <mailDelResponsabile>alberto.dimaria@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>36</codDipendente>
+            <codBu>137</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>DEL MINISTRO</sn>
+            <givenName>ACHILLE</givenName>
+            <mail>achille.delministro@snaitech.it</mail>
+            <department>Area Budget, Controllo e Reporting</department>
+            <description>Funzione Pianificazione, Budget e Controllo</description>
+            <office>Direzione Amministrazione, Finanza e Controllo</office>
+            <jobTitle>Specialista Budget, Controllo e Reporting</jobTitle>
+            <manager>FEDERICO VANNUCCI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 57</streetAddress>
+            <telephoneNumber>81671</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|38|9159|176|1|848|350|28|1041|0|01/04/2000||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Budget_Controllo_e_Reporting</gruppoSPReader>
+            <mailDelResponsabile>federico.vannucci@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>38</codDipendente>
+            <codBu>350</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>MARSILI</sn>
+            <givenName>SARA</givenName>
+            <mail>sara.marsili@snaitech.it</mail>
+            <department>Area Sviluppo Prodotti e Innovazione Online</department>
+            <description>Funzione Sviluppo Prodotti e Innovazione Online</description>
+            <office>BU Trading &amp; Digital</office>
+            <jobTitle>Addetto Marketing - Grafica e Design</jobTitle>
+            <manager>DUCCIO GERONIMI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 57</streetAddress>
+            <telephoneNumber>81707</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|39|172|195|5903|1665|218|28|1042|0|01/04/2000||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Sviluppo_Prodotti_e_Innovazione_Online</gruppoSPReader>
+            <mailDelResponsabile>duccio.geronimi@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>39</codDipendente>
+            <codBu>218</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>ANTUONO</sn>
+            <givenName>GIOVANNANGELA</givenName>
+            <mail>giovanna.antuono@snaitech.it</mail>
+            <department>Area Fatturazione Attiva Betting</department>
+            <description>Funzione Amministrazione, Bilancio e Crediti</description>
+            <office>Direzione Amministrazione, Finanza e Controllo</office>
+            <jobTitle>Addetto Fatturazione Attiva Betting</jobTitle>
+            <manager>ELENA DIAN</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 57</streetAddress>
+            <telephoneNumber>81854</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|43|161|175|1|449|38|28|111|0|15/05/2000||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Fatturazione_Attiva_Betting</gruppoSPReader>
+            <mailDelResponsabile>elena.dian@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>43</codDipendente>
+            <codBu>38</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>FORASSIEPI</sn>
+            <givenName>ELENA</givenName>
+            <mail>elena.forassiepi@snaitech.it</mail>
+            <department>Area Fraud &amp; Payments</department>
+            <description>Funzione Gaming</description>
+            <office>BU Trading &amp; Digital</office>
+            <jobTitle>Addetto Fraud &amp; Payments</jobTitle>
+            <manager>ELISABETTA MANDRACCHIA</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 57</streetAddress>
+            <telephoneNumber>81804</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|44|154|194|5903|243|128|28|850|0|15/05/2000||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Fraud_Payments</gruppoSPReader>
+            <mailDelResponsabile>elisabetta.mandracchia@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>44</codDipendente>
+            <codBu>128</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>SANTINI</sn>
+            <givenName>CESARE</givenName>
+            <mail>cesare.santini@snaitech.it</mail>
+            <department>Area Quality Assurance</department>
+            <description>Funzione Information Technology Services Management</description>
+            <office>Direzione ICT</office>
+            <jobTitle>Addetto Quality Assurance</jobTitle>
+            <manager>CRISTIANO CIABATTI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 39</streetAddress>
+            <telephoneNumber>81499</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|45|1022|232|5300|737|318|28|183|4|19/07/2000||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Quality_Assurance</gruppoSPReader>
+            <mailDelResponsabile>cristiano.ciabatti@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>45</codDipendente>
+            <codBu>318</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>CARMIGNANI</sn>
+            <givenName>ANNAMARIA</givenName>
+            <mail>annamaria.carmignani@snaitech.it</mail>
+            <department>Area Pagamenti e Contrattualistica</department>
+            <description>Funzione Tesoreria</description>
+            <office>Direzione Amministrazione, Finanza e Controllo</office>
+            <jobTitle>Specialista Pagamenti e Contrattualistica</jobTitle>
+            <manager>ELISABETTA ASCOLI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 57</streetAddress>
+            <telephoneNumber>81485</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|46|7315|173|1|794|329|28|1156|0|01/09/2000||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Pagamenti_e_Contrattualistica</gruppoSPReader>
+            <mailDelResponsabile>elisa.ascoli@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>46</codDipendente>
+            <codBu>329</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>PRUNETI</sn>
+            <givenName>FRANCESCO</givenName>
+            <mail>francesco.pruneti@snaitech.it</mail>
+            <department>Area Facility &amp; Property</department>
+            <description>Funzione Retail Diretto</description>
+            <office>Divisione/BU Betting Retail</office>
+            <jobTitle>Responsabile Facility &amp; Property</jobTitle>
+            <manager>MASSIMO PANCHETTI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 39</streetAddress>
+            <telephoneNumber>81553</telephoneNumber>
+            <mobile>335/7742963</mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|49|9118|223|5911|759|102|28|934|0|01/10/2000||0</customAttribute6>
+            <gruppoSPOwner>SP_Area_Facility_Property</gruppoSPOwner>
+            <gruppoSPReader>SP_Area_Retail_Diretto</gruppoSPReader>
+            <mailDelResponsabile>massimo.panchetti@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>49</codDipendente>
+            <codBu>102</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>VERDIANI</sn>
+            <givenName>ANNIBALE</givenName>
+            <mail>annibale.verdiani@snaitech.it</mail>
+            <department>Area Retail Marketing - Reparto Allestimento e Restyling PV</department>
+            <description>Direzione Marketing</description>
+            <office>Direzione Commerciale</office>
+            <jobTitle>Responsabile Allestimento e Restyling Punti Vendita</jobTitle>
+            <manager>GIOVANNI NICOLA IVAN CARTA</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 57</streetAddress>
+            <telephoneNumber>81856</telephoneNumber>
+            <mobile>335/7742962</mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|50|9072|205|7|672|164|28|1033|0|01/10/2000||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Retail_Marketing</gruppoSPReader>
+            <mailDelResponsabile>ivan.carta@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>50</codDipendente>
+            <codBu>164</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>AGUECI</sn>
+            <givenName>MICHELE</givenName>
+            <mail>michele.agueci@snaitech.it</mail>
+            <department>Area Offline Acquisition Management</department>
+            <description>Funzione Acquisition</description>
+            <office>BU Trading &amp; Digital</office>
+            <jobTitle>Responsabile Online Brand &amp; Editorial</jobTitle>
+            <manager>FEDERICO BASTONI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 57</streetAddress>
+            <telephoneNumber>81903</telephoneNumber>
+            <mobile>335/7661268</mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|52|9139|178|5903|830|47|28|300|0|20/11/2000||0</customAttribute6>
+            <gruppoSPOwner>SP_Area_Offline_Acquisition_Management</gruppoSPOwner>
+            <gruppoSPReader>SP_Area_Acquisition</gruppoSPReader>
+            <mailDelResponsabile>federico.bastoni@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>52</codDipendente>
+            <codBu>47</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>CORDONI</sn>
+            <givenName>SILVIA</givenName>
+            <mail>silvia.cordoni@snaitech.it</mail>
+            <department>Area Bilancio, Adempimenti Fiscali e Fatturazione Passiva</department>
+            <description>Funzione Amministrazione, Bilancio e Crediti</description>
+            <office>Direzione Amministrazione, Finanza e Controllo</office>
+            <jobTitle>Specialista Fatturazione Passiva</jobTitle>
+            <manager>SERENA MESCHI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 57</streetAddress>
+            <telephoneNumber>81674</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|56|7338|175|1|820|52|28|100|0|25/07/2002||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Bilancio_Adempimenti_Fiscali_e_Fatturazione_Passiva</gruppoSPReader>
+            <mailDelResponsabile>serena.meschi@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>56</codDipendente>
+            <codBu>52</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>VIGNINI</sn>
+            <givenName>VIVIANA</givenName>
+            <mail>viviana.vignini@snaitech.it</mail>
+            <department>Area Acquisti Business &amp; Staff</department>
+            <description>Funzione Acquisti</description>
+            <office>Direzione Amministrazione, Finanza e Controllo</office>
+            <jobTitle>Addetto Acquisti</jobTitle>
+            <manager>ALFONSINA CARBONE</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 57</streetAddress>
+            <telephoneNumber>81464</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|57|9157|11|1|119|253|28|1181|23|01/12/2002||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Acquisti_Business_Staff</gruppoSPReader>
+            <mailDelResponsabile>alfonsina.carbone@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>57</codDipendente>
+            <codBu>253</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>MARCHETTI</sn>
+            <givenName>MARZIA</givenName>
+            <mail>marzia.marchetti@snaitech.it</mail>
+            <department>Area Fatturazione Attiva Betting</department>
+            <description>Funzione Amministrazione, Bilancio e Crediti</description>
+            <office>Direzione Amministrazione, Finanza e Controllo</office>
+            <jobTitle>Addetto Fatturazione Attiva Betting</jobTitle>
+            <manager>ELENA DIAN</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 57</streetAddress>
+            <telephoneNumber>81704</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|59|161|175|1|449|38|28|111|0|01/01/2000||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Fatturazione_Attiva_Betting</gruppoSPReader>
+            <mailDelResponsabile>elena.dian@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>59</codDipendente>
+            <codBu>38</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>FRANCESCONI</sn>
+            <givenName>LORENZO</givenName>
+            <mail>lorenzo.francesconi@snaitech.it</mail>
+            <department>Area Digital Transformation</department>
+            <description>Funzione Digital Transformation</description>
+            <office>Direzione ICT</office>
+            <jobTitle>Esperto Technical &amp; Digital Transformation                           </jobTitle>
+            <manager>LUIGI GRECO</manager>
+            <l>ROMA</l>
+            <streetAddress>Roma - Via Goito, 58/A</streetAddress>
+            <telephoneNumber>87329</telephoneNumber>
+            <mobile>335/1422691</mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|60|97|179|5300|1624|225|28|1246|0|09/10/2001||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Digital_Transformation</gruppoSPReader>
+            <mailDelResponsabile>luigi.greco@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>60</codDipendente>
+            <codBu>225</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>TILLI</sn>
+            <givenName>TULLIO</givenName>
+            <mail>tullio.tilli@snaitech.it</mail>
+            <department>Area Soluzioni Gaming Machine &amp; Servizi</department>
+            <description>Funzione Soluzioni</description>
+            <office>Direzione ICT</office>
+            <jobTitle>Analista Programmatore Senior</jobTitle>
+            <manager>GIACOMO GALLUCCI</manager>
+            <l>ROMA</l>
+            <streetAddress>Roma - Via Goito, 58/A</streetAddress>
+            <telephoneNumber>87308</telephoneNumber>
+            <mobile>335/1422692</mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|61|137|181|5300|476|143|28|1242|0|09/10/2001||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Soluzioni_Gaming_Machine_Servizi</gruppoSPReader>
+            <mailDelResponsabile>giacomo.gallucci@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>61</codDipendente>
+            <codBu>143</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>AMATI</sn>
+            <givenName>ANDREA</givenName>
+            <mail>andrea.amati@snaitech.it</mail>
+            <department>Area Sales Support</department>
+            <description>Direzione Vendite</description>
+            <office>Direzione Commerciale</office>
+            <jobTitle>Sales Support Manager</jobTitle>
+            <manager>VINCENZO NOVIELLO</manager>
+            <l>ROMA</l>
+            <streetAddress>Roma - Via Goito, 58/A</streetAddress>
+            <telephoneNumber>87652</telephoneNumber>
+            <mobile>335/1422687</mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|62|9163|167|7|1631|147|28|1147|0|10/10/2001||0</customAttribute6>
+            <gruppoSPOwner>SP_Area_Sales_Support</gruppoSPOwner>
+            <gruppoSPReader>SP_Area_Vendite</gruppoSPReader>
+            <mailDelResponsabile>vincenzo.noviello@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>62</codDipendente>
+            <codBu>147</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>IASEVOLI</sn>
+            <givenName>MASSIMO</givenName>
+            <mail>massimo.iasevoli@snaitech.it</mail>
+            <department>Area System Integration</department>
+            <description>Funzione Soluzioni</description>
+            <office>Direzione ICT</office>
+            <jobTitle>Esperto System Integration</jobTitle>
+            <manager>FRANCESCO CECI</manager>
+            <l>ROMA</l>
+            <streetAddress>Roma - Via Goito, 58/A</streetAddress>
+            <telephoneNumber>87698</telephoneNumber>
+            <mobile>335/7556783</mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|65|105|181|5300|811|143|28|252|0|10/10/2001||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_System_Integration</gruppoSPReader>
+            <mailDelResponsabile>francesco.ceci@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>65</codDipendente>
+            <codBu>143</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>CIOCE</sn>
+            <givenName>MARILENA</givenName>
+            <mail>marilena.cioce@snaitech.it</mail>
+            <department>Area Business Analysis</department>
+            <description>Funzione Commerciale</description>
+            <office>Direzione Commerciale</office>
+            <jobTitle>Business Analyst</jobTitle>
+            <manager>DINO ANANIA</manager>
+            <l>ROMA</l>
+            <streetAddress>Roma - Via Goito, 58/A</streetAddress>
+            <telephoneNumber>87664</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|68|72|174|7|403|262|28|1044|21|19/10/2001||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Business_Analysis</gruppoSPReader>
+            <mailDelResponsabile>dino.anania@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>68</codDipendente>
+            <codBu>262</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>BORGONOVO</sn>
+            <givenName>FURIO ANGELO</givenName>
+            <mail>furio.borgonovo@snaitech.it</mail>
+            <department>Area Digital Transformation</department>
+            <description>Funzione Digital Transformation</description>
+            <office>Direzione ICT</office>
+            <jobTitle>Esperto Digital Transformation</jobTitle>
+            <manager>LUIGI GRECO</manager>
+            <l>ROMA</l>
+            <streetAddress>Roma - Via Goito, 58/A</streetAddress>
+            <telephoneNumber>87373</telephoneNumber>
+            <mobile>335/1422688</mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|69|97|179|5300|717|225|28|1246|0|25/10/2001||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Digital_Transformation</gruppoSPReader>
+            <mailDelResponsabile>luigi.greco@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>69</codDipendente>
+            <codBu>225</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>COPPOLA</sn>
+            <givenName>STEFANO</givenName>
+            <mail>stefano.coppola@snaitech.it</mail>
+            <department>Area Product Management VLT</department>
+            <description>Funzione VLT</description>
+            <office>BU Gaming Machine</office>
+            <jobTitle>Addetto Scarico Giochi e Aggiornamento SW</jobTitle>
+            <manager>ANDREA FAIOLA</manager>
+            <l>ROMA</l>
+            <streetAddress>Roma - Via Goito, 58/A</streetAddress>
+            <telephoneNumber>87343</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|70|106|47|5908|567|324|28|1227|0|29/10/2001||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Product_Management_VLT</gruppoSPReader>
+            <mailDelResponsabile>andrea.faiola@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>70</codDipendente>
+            <codBu>324</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>COSENTINO</sn>
+            <givenName>STEFANIA</givenName>
+            <mail>stefania.cosentino@snaitech.it</mail>
+            <department>Area Compliance</department>
+            <description>Funzione Compliance e Adempimenti Concessori e Normativi</description>
+            <office>Direzione Affari Legali e Societari</office>
+            <jobTitle>Responsabile Compliance</jobTitle>
+            <manager>LUCIA NIOI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 39</streetAddress>
+            <telephoneNumber>81227</telephoneNumber>
+            <mobile>348/3373888</mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|82|7337|505|5050|736|116|28|899|21|02/05/1995||0</customAttribute6>
+            <gruppoSPOwner>SP_Area_Compliance</gruppoSPOwner>
+            <gruppoSPReader>SP_Area_Compliance_e_Adempimenti_Concessori_e_Normativi</gruppoSPReader>
+            <mailDelResponsabile>lucia.nioi@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>82</codDipendente>
+            <codBu>116</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>NIERI</sn>
+            <givenName>MICHELA</givenName>
+            <mail>michela.nieri@snaitech.it</mail>
+            <department>Area Governance IT</department>
+            <description>Funzione Information Technology Services Management</description>
+            <office>Direzione ICT</office>
+            <jobTitle>Addetto Governance IT</jobTitle>
+            <manager>ANDREA MARZINI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 39</streetAddress>
+            <telephoneNumber>81328</telephoneNumber>
+            <mobile>335/7630665</mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|83|7341|232|5300|156|11|28|143|0|02/05/1995||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Governance_IT</gruppoSPReader>
+            <mailDelResponsabile>andrea.marzini@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>83</codDipendente>
+            <codBu>11</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>MICHELI</sn>
+            <givenName>GIULIO PAOLO</givenName>
+            <mail>paolo.micheli@snaitech.it</mail>
+            <department>Area Property</department>
+            <description>Funzione Property, Facility &amp; General Affairs</description>
+            <office>Direzione Risorse Umane ed Organizzazione</office>
+            <jobTitle>Property Manager</jobTitle>
+            <manager>GUIDO DEGL'INNOCENTI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 57</streetAddress>
+            <telephoneNumber>81222</telephoneNumber>
+            <mobile>335/7206784</mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|84|9176|162|5060|1635|256|28|1217|0|01/12/1995||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Property_Facility_General_Affairs</gruppoSPReader>
+            <mailDelResponsabile>guido.deglinnocenti@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>84</codDipendente>
+            <codBu>256</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>RICCIARDI</sn>
+            <givenName>MORGAN</givenName>
+            <mail>morgan.ricciardi@snaitech.it</mail>
+            <department>Area ICT</department>
+            <description>Funzione ICT</description>
+            <office>Direzione ICT</office>
+            <jobTitle>Direttore ICT</jobTitle>
+            <manager>FABIO SCHIAVOLIN</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 39</streetAddress>
+            <telephoneNumber>81223</telephoneNumber>
+            <mobile>335/6372080</mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|86|1300|17|5300|266|169|28|1142|0|16/12/1995||0</customAttribute6>
+            <gruppoSPOwner>SP_Area_ICT</gruppoSPOwner>
+            <gruppoSPReader>SP_Amministratore_Delegato</gruppoSPReader>
+            <mailDelResponsabile>fabio.schiavolin@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>86</codDipendente>
+            <codBu>169</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>LORENZETTI</sn>
+            <givenName>SIMONA</givenName>
+            <mail>simona.lorenzetti@snaitech.it</mail>
+            <department>Area Control Desk Ippica</department>
+            <description>Funzione Trading</description>
+            <office>BU Trading &amp; Digital</office>
+            <jobTitle>Operatore Control Desk Ippica</jobTitle>
+            <manager>ANTONIO BINI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 39</streetAddress>
+            <telephoneNumber>81304</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|87|9109|218|5903|781|44|28|95|0|01/03/1996||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Control_Desk_Ippica</gruppoSPReader>
+            <mailDelResponsabile>antonio.bini@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>87</codDipendente>
+            <codBu>44</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>TASSELLI</sn>
+            <givenName>SANDRA</givenName>
+            <mail>sandra.tasselli@snaitech.it</mail>
+            <department>Area Bilancio, Adempimenti Fiscali e Fatturazione Passiva</department>
+            <description>Funzione Amministrazione, Bilancio e Crediti</description>
+            <office>Direzione Amministrazione, Finanza e Controllo</office>
+            <jobTitle>Addetto Fatturazione Passiva</jobTitle>
+            <manager>SERENA MESCHI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 57</streetAddress>
+            <telephoneNumber>81355</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|88|7338|175|1|819|52|28|100|0|01/03/1996||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Bilancio_Adempimenti_Fiscali_e_Fatturazione_Passiva</gruppoSPReader>
+            <mailDelResponsabile>serena.meschi@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>88</codDipendente>
+            <codBu>52</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>RAMACCIOTTI</sn>
+            <givenName>ROSITA</givenName>
+            <mail>rosita.ramacciotti@snaitech.it</mail>
+            <department>Area Bilancio, Adempimenti Fiscali e Fatturazione Passiva</department>
+            <description>Funzione Amministrazione, Bilancio e Crediti</description>
+            <office>Direzione Amministrazione, Finanza e Controllo</office>
+            <jobTitle>Specialista Bilancio e Adempimenti Fiscali</jobTitle>
+            <manager>SERENA MESCHI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 57</streetAddress>
+            <telephoneNumber>81244</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|89|7338|175|1|823|52|28|100|0|25/03/1996||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Bilancio_Adempimenti_Fiscali_e_Fatturazione_Passiva</gruppoSPReader>
+            <mailDelResponsabile>serena.meschi@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>89</codDipendente>
+            <codBu>52</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>BERTOLOZZI</sn>
+            <givenName>CINZIA</givenName>
+            <mail>cinzia.bertolozzi@snaitech.it</mail>
+            <department>Area Control Desk Ippica</department>
+            <description>Funzione Trading</description>
+            <office>BU Trading &amp; Digital</office>
+            <jobTitle>Operatore Control Desk Ippica</jobTitle>
+            <manager>ANTONIO BINI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 39</streetAddress>
+            <telephoneNumber>81304</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|90|9109|218|5903|781|44|28|95|0|02/04/1996||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Control_Desk_Ippica</gruppoSPReader>
+            <mailDelResponsabile>antonio.bini@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>90</codDipendente>
+            <codBu>44</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>COSENTINO</sn>
+            <givenName>GABRIELLA</givenName>
+            <mail>gabriella.cosentino@snaitech.it</mail>
+            <department>Area Retail Business Performance</department>
+            <description>Funzione Retail Business Performance</description>
+            <office>Divisione/BU Betting Retail</office>
+            <jobTitle>Specialista Back Office Betting</jobTitle>
+            <manager>FABIO RICCI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 39</streetAddress>
+            <telephoneNumber>81471</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|93|170|221|5911|818|16|28|98|14|16/08/1996||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Retail_Business_Performance</gruppoSPReader>
+            <mailDelResponsabile>fabio.ricci@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>93</codDipendente>
+            <codBu>16</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>BINI</sn>
+            <givenName>ANTONIO</givenName>
+            <mail>antonio.bini@snaitech.it</mail>
+            <department>Area Control Desk Ippica</department>
+            <description>Funzione Trading</description>
+            <office>BU Trading &amp; Digital</office>
+            <jobTitle>Responsabile Control Desk Ippica</jobTitle>
+            <manager>PAOLO MARIO BERTOCCHI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 39</streetAddress>
+            <telephoneNumber>81268</telephoneNumber>
+            <mobile>335/6345000</mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|95|9109|218|5903|754|347|28|1135|0|01/11/1996||0</customAttribute6>
+            <gruppoSPOwner>SP_Area_Control_Desk_Ippica</gruppoSPOwner>
+            <gruppoSPReader>SP_Area_Trading</gruppoSPReader>
+            <mailDelResponsabile>paolo.bertocchi@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>95</codDipendente>
+            <codBu>347</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>CONTI</sn>
+            <givenName>NADIA</givenName>
+            <mail>nadia.conti@snaitech.it</mail>
+            <department>Area Control Desk Ippica</department>
+            <description>Funzione Trading</description>
+            <office>BU Trading &amp; Digital</office>
+            <jobTitle>Operatore Control Desk Ippica</jobTitle>
+            <manager>ANTONIO BINI</manager>
+            <l>PORCARI</l>
+            <streetAddress>Porcari (LU) - Via L.Boccherini, 39</streetAddress>
+            <telephoneNumber>81304</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|96|9109|218|5903|781|44|28|95|0|01/11/1996||0</customA...|385|39|42|0|03/01/2000||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader/>
+            <mailDelResponsabile/>
+            <codAzienda>39</codAzienda>
+            <codDipendente>1</codDipendente>
+            <codBu>385</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Area Scom</company>
+            <sn>SANTINI</sn>
+            <givenName>LUCIANO</givenName>
+            <mail>luciano.santini@areascom.it</mail>
+            <department/>
+            <description/>
+            <office/>
+            <jobTitle/>
+            <manager>ALESSANDRO GONNELLI</manager>
+            <l>LIVORNO</l>
+            <streetAddress>Livorno - Viale Italia, 307</streetAddress>
+            <telephoneNumber>0586/260856</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>39|50|0|0|0|0|380|39|51|0|15/04/2000||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader/>
+            <mailDelResponsabile/>
+            <codAzienda>39</codAzienda>
+            <codDipendente>50</codDipendente>
+            <codBu>380</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Area Scom</company>
+            <sn>SIGNORINI</sn>
+            <givenName>BENEDETTA</givenName>
+            <mail>benedetta.signorini@areascom.it</mail>
+            <department/>
+            <description/>
+            <office/>
+            <jobTitle/>
+            <manager>CRISTIANO TOSI</manager>
+            <l>SAN GIULIANO TERME</l>
+            <streetAddress>San Giuliano Terme (PI) -  Via Aurelia, 21</streetAddress>
+            <telephoneNumber>050/894025</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>39|73|0|0|0|0|373|39|72|0|14/12/2005||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader/>
+            <mailDelResponsabile/>
+            <codAzienda>39</codAzienda>
+            <codDipendente>73</codDipendente>
+            <codBu>373</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Area Scom</company>
+            <sn>SILVESTRI</sn>
+            <givenName>ALESSANDRA</givenName>
+            <mail>alessandra.silvestri@areascom.it</mail>
+            <department/>
+            <description/>
+            <office/>
+            <jobTitle/>
+            <manager>GENNY TONELLI</manager>
+            <l>PESCIA</l>
+            <streetAddress>Pescia (PT) - Via S. D'Acquisto, 17-19</streetAddress>
+            <telephoneNumber>0572/445266</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>39|59|0|0|0|0|369|39|56|0|24/10/2005||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader/>
+            <mailDelResponsabile/>
+            <codAzienda>39</codAzienda>
+            <codDipendente>59</codDipendente>
+            <codBu>369</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Area Scom</company>
+            <sn>SIMONI</sn>
+            <givenName>GIULIA</givenName>
+            <mail>giulia.simoni@areascom.it</mail>
+            <department/>
+            <description/>
+            <office/>
+            <jobTitle/>
+            <manager>ALESSANDRO DAVINI</manager>
+            <l>CASCINA</l>
+            <streetAddress>Cascina (PI) - Via Tosco Romagnola, 1631</streetAddress>
+            <telephoneNumber>050/747076</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>39|79|0|0|0|0|124|28|444|0|02/01/2006||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Operation_Rep_Coordinamento_Agen_Scommesse_Porcari</gruppoSPReader>
+            <mailDelResponsabile>alessandro.davini@snaitech.it</mailDelResponsabile>
+            <codAzienda>39</codAzienda>
+            <codDipendente>79</codDipendente>
+            <codBu>124</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Area Scom</company>
+            <sn>SORVILLO</sn>
+            <givenName>ILARIA</givenName>
+            <mail>ilaria.sorvillo@areascom.it</mail>
+            <department/>
+            <description/>
+            <office/>
+            <jobTitle/>
+            <manager>ANNA LADISA</manager>
+            <l>SCANDICCI</l>
+            <streetAddress>Scandicci (FI) - Via dei Rossi, angolo Via Alfieri</streetAddress>
+            <telephoneNumber>055/253515</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>39|41|0|0|0|0|382|39|37|0|21/12/2010||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader/>
+            <mailDelResponsabile/>
+            <codAzienda>39</codAzienda>
+            <codDipendente>41</codDipendente>
+            <codBu>382</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Area Scom</company>
+            <sn>TONELLI</sn>
+            <givenName>GENNY</givenName>
+            <mail>genny.tonelli@areascom.it</mail>
+            <department/>
+            <description/>
+            <office/>
+            <jobTitle/>
+            <manager>ALESSANDRO DAVINI</manager>
+            <l>PESCIA</l>
+            <streetAddress>Pescia (PT) - Via S. D'Acquisto, 17-19</streetAddress>
+            <telephoneNumber>0572/445266</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>39|56|0|0|0|0|124|28|444|0|01/10/2002||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Operation_Rep_Coordinamento_Agen_Scommesse_Porcari</gruppoSPReader>
+            <mailDelResponsabile>alessandro.davini@snaitech.it</mailDelResponsabile>
+            <codAzienda>39</codAzienda>
+            <codDipendente>56</codDipendente>
+            <codBu>124</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Area Scom</company>
+            <sn>TORRINI</sn>
+            <givenName>VALENTINA</givenName>
+            <mail>valentina.torrini@areascom.it</mail>
+            <department/>
+            <description/>
+            <office/>
+            <jobTitle/>
+            <manager>SIMONA MONTAGNI</manager>
+            <l>FIRENZE</l>
+            <streetAddress>Firenze - Via Mugello, 28 -30 - 32</streetAddress>
+            <telephoneNumber>055/4220465</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>39|13|0|0|0|0|367|39|14|0|16/11/2005||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader/>
+            <mailDelResponsabile/>
+            <codAzienda>39</codAzienda>
+            <codDipendente>13</codDipendente>
+            <codBu>367</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Area Scom</company>
+            <sn>TOSCHI</sn>
+            <givenName>SILVIA</givenName>
+            <mail>silvia.toschi@areascom.it</mail>
+            <department/>
+            <description/>
+            <office/>
+            <jobTitle/>
+            <manager>PAOLA GIUSTI</manager>
+            <l>CAPANNORI</l>
+            <streetAddress>Capannori (LU) - Viale Europa, 54-54/A int.2-3</streetAddress>
+            <telephoneNumber>0583/998389</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>39|96|0|0|0|0|379|39|95|0|14/04/2008||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader/>
+            <mailDelResponsabile/>
+            <codAzienda>39</codAzienda>
+            <codDipendente>96</codDipendente>
+            <codBu>379</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Area Scom</company>
+            <sn>TOSI</sn>
+            <givenName>CRISTIANO</givenName>
+            <mail>cristiano.tosi@areascom.it</mail>
+            <department/>
+            <description/>
+            <office/>
+            <jobTitle/>
+            <manager>ALESSANDRO DAVINI</manager>
+            <l>SAN GIULIANO TERME</l>
+            <streetAddress>San Giuliano Terme (PI) -  Via Aurelia, 21</streetAddress>
+            <telephoneNumber>050/894025</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>39|72|0|0|0|0|124|28|444|0|01/08/1999||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Operation_Rep_Coordinamento_Agen_Scommesse_Porcari</gruppoSPReader>
+            <mailDelResponsabile>alessandro.davini@snaitech.it</mailDelResponsabile>
+            <codAzienda>39</codAzienda>
+            <codDipendente>72</codDipendente>
+            <codBu>124</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Area Scom</company>
+            <sn>TUCCI</sn>
+            <givenName>EMANUELA</givenName>
+            <mail>emanuela.tucci@areascom.it</mail>
+            <department/>
+            <description/>
+            <office/>
+            <jobTitle/>
+            <manager>SELENE GHEZZANI</manager>
+            <l>QUARRATA</l>
+            <streetAddress>Quarrata (PT) - Via Montalbano,390/A</streetAddress>
+            <telephoneNumber>0573/779413</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>39|89|0|0|0|0|377|39|91|0|04/01/2006||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader/>
+            <mailDelResponsabile/>
+            <codAzienda>39</codAzienda>
+            <codDipendente>89</codDipendente>
+            <codBu>377</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Area Scom</company>
+            <sn>VETTORI</sn>
+            <givenName>MATTEO</givenName>
+            <mail>matteo.vettori@areascom.it</mail>
+            <department/>
+            <description/>
+            <office/>
+            <jobTitle/>
+            <manager>ALESSANDRO DAVINI</manager>
+            <l>PISA</l>
+            <streetAddress>Pisa - Via del Brennero, 20</streetAddress>
+            <telephoneNumber>050/551360</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>39|62|0|0|0|0|124|28|444|0|26/09/2000||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Operation_Rep_Coordinamento_Agen_Scommesse_Porcari</gruppoSPReader>
+            <mailDelResponsabile>alessandro.davini@snaitech.it</mailDelResponsabile>
+            <codAzienda>39</codAzienda>
+            <codDipendente>62</codDipendente>
+            <codBu>124</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Area Scom</company>
+            <sn>VIOLANTE</sn>
+            <givenName>MARILENA</givenName>
+            <mail>marilena.violante@areascom.it</mail>
+            <department/>
+            <description/>
+            <office/>
+            <jobTitle/>
+            <manager>LUCA PAGLIAI</manager>
+            <l>FIRENZE</l>
+            <streetAddress>Firenze - Via del Saletto,12</streetAddress>
+            <telephoneNumber>055/7874743</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>39|46|0|0|0|0|383|39|84|0|22/03/2018||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader/>
+            <mailDelResponsabile/>
+            <codAzienda>39</codAzienda>
+            <codDipendente>46</codDipendente>
+            <codBu>383</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Area Scom</company>
+            <sn>ZACCOLTI</sn>
+            <givenName>GIULIA</givenName>
+            <mail>giulia.zaccolti@areascom.it</mail>
+            <department/>
+            <description/>
+            <office/>
+            <jobTitle/>
+            <manager>PAOLO ROSELLINI</manager>
+            <l>FIRENZE</l>
+            <streetAddress>Firenze - Via Il Prato, 33/R</streetAddress>
+            <telephoneNumber>055/282671</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>39|26|0|0|0|0|387|39|25|0|07/07/2008||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader/>
+            <mailDelResponsabile/>
+            <codAzienda>39</codAzienda>
+            <codDipendente>26</codDipendente>
+            <codBu>387</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>ALDIERI</sn>
+            <givenName>LUCIANO</givenName>
+            <mail>luciano.aldieri@snaitech.it</mail>
+            <department>Area Trading Sport</department>
+            <description>Funzione Trading</description>
+            <office>BU Trading &amp; Digital</office>
+            <jobTitle>Trader Sport</jobTitle>
+            <manager>MARCO RUBINI</manager>
+            <l>MILANO</l>
+            <streetAddress>Milano - Piazza della Repubblica,32</streetAddress>
+            <telephoneNumber>87215</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|2286|9106|218|5903|776|168|28|1359|0|25/11/2019||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Trading_Sport</gruppoSPReader>
+            <mailDelResponsabile>marco.rubini@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>2286</codDipendente>
+            <codBu>168</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Area Scom</company>
+            <sn>GIUSTI</sn>
+            <givenName>PAOLA</givenName>
+            <mail>paola.giusti@areascom.it</mail>
+            <department/>
+            <description/>
+            <office/>
+            <jobTitle/>
+            <manager>PAOLO SAMBALDI</manager>
+            <l/>
+            <streetAddress>Milano - P.zza della Repubblica, 32</streetAddress>
+            <telephoneNumber></telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>39|42|0|0|0|0|263|28|443|0|01/01/2004||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Operation</gruppoSPReader>
+            <mailDelResponsabile>paolo.sambaldi@snaitech.it</mailDelResponsabile>
+            <codAzienda>39</codAzienda>
+            <codDipendente>42</codDipendente>
+            <codBu>263</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaireteitalia</company>
+            <sn>DE JESUS</sn>
+            <givenName>GEISA TATIANA</givenName>
+            <mail>geisatatiana.dejesus@snaireteitalia.it</mail>
+            <department>Area Operation - Rep. Coord. Agenzia Brescia Santa Eufemia</department>
+            <description>Funzione Retail Diretto</description>
+            <office>BU Betting Retail</office>
+            <jobTitle>Referente di Sala</jobTitle>
+            <manager>DAVIDE LAZZARONI</manager>
+            <l>BRESCIA</l>
+            <streetAddress>Brescia - Santa Eufemia, 94/3</streetAddress>
+            <telephoneNumber>030/3366569</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>38|2255|55421|510|8|19|327|38|2254|0|13/02/2017||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Operation_Rep_Coord_Agenzia_Brescia_Santa_Eufemia</gruppoSPReader>
+            <mailDelResponsabile>davide.lazzaroni@snaireteitalia.it</mailDelResponsabile>
+            <codAzienda>38</codAzienda>
+            <codDipendente>2255</codDipendente>
+            <codBu>327</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaireteitalia</company>
+            <sn>DIALLO</sn>
+            <givenName>AMADOU</givenName>
+            <mail>amadou.diallo@snaireteitalia.it</mail>
+            <department>Area Operation - Rep. Coord. Agenzia Brescia Santa Eufemia</department>
+            <description>Funzione Retail Diretto</description>
+            <office>BU Betting Retail</office>
+            <jobTitle>Addetto di Sala</jobTitle>
+            <manager>DAVIDE LAZZARONI</manager>
+            <l>BRESCIA</l>
+            <streetAddress>Brescia - Santa Eufemia, 94/3</streetAddress>
+            <telephoneNumber>030/3366569</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>38|2256|55421|510|8|1628|327|38|2254|0|26/05/2012||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Operation_Rep_Coord_Agenzia_Brescia_Santa_Eufemia</gruppoSPReader>
+            <mailDelResponsabile>davide.lazzaroni@snaireteitalia.it</mailDelResponsabile>
+            <codAzienda>38</codAzienda>
+            <codDipendente>2256</codDipendente>
+            <codBu>327</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaireteitalia</company>
+            <sn>LAZZARONI</sn>
+            <givenName>DAVIDE</givenName>
+            <mail>davide.lazzaroni@snaireteitalia.it</mail>
+            <department>Area Operation - Rep. Coord. Agenzia Brescia Santa Eufemia</department>
+            <description>Funzione Retail Diretto</description>
+            <office>BU Betting Retail</office>
+            <jobTitle>Responsabile di Agenzia</jobTitle>
+            <manager>FERDINANDO MELIS</manager>
+            <l>BRESCIA</l>
+            <streetAddress>Brescia - Santa Eufemia, 94/3</streetAddress>
+            <telephoneNumber>030/3366569</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>38|2254|55421|510|8|1202|327|28|897|0|01/11/2008||0</customAttribute6>
+            <gruppoSPOwner>SP_Area_Operation_Rep_Coord_Agenzia_Brescia_Santa_Eufemia</gruppoSPOwner>
+            <gruppoSPReader>SP_Area_Operation_Reparto_Coordinamento</gruppoSPReader>
+            <mailDelResponsabile>ferdinando.melis@snaitech.it</mailDelResponsabile>
+            <codAzienda>38</codAzienda>
+            <codDipendente>2254</codDipendente>
+            <codBu>327</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaireteitalia</company>
+            <sn>MONEGHINI</sn>
+            <givenName>JLENIA</givenName>
+            <mail>jlenia.moneghini@snaireteitalia.it</mail>
+            <department>Area Operation - Rep. Coord. Agenzia Brescia Santa Eufemia</department>
+            <description>Funzione Retail Diretto</description>
+            <office>BU Betting Retail</office>
+            <jobTitle>Referente di Sala</jobTitle>
+            <manager>DAVIDE LAZZARONI</manager>
+            <l>BRESCIA</l>
+            <streetAddress>Brescia - Santa Eufemia, 94/3</streetAddress>
+            <telephoneNumber>030/3366569</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>38|2259|55421|510|8|19|327|38|2254|0|24/04/2019||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Operation_Rep_Coord_Agenzia_Brescia_Santa_Eufemia</gruppoSPReader>
+            <mailDelResponsabile>davide.lazzaroni@snaireteitalia.it</mailDelResponsabile>
+            <codAzienda>38</codAzienda>
+            <codDipendente>2259</codDipendente>
+            <codBu>327</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaireteitalia</company>
+            <sn>MUSSO</sn>
+            <givenName>ANDREA</givenName>
+            <mail>andrea.musso@snaireteitalia.it</mail>
+            <department>Area Operation - Rep. Coord. Agenzia Brescia Santa Eufemia</department>
+            <description>Funzione Retail Diretto</description>
+            <office>BU Betting Retail</office>
+            <jobTitle>Referente di Sala</jobTitle>
+            <manager>DAVIDE LAZZARONI</manager>
+            <l>BRESCIA</l>
+            <streetAddress>Brescia - Santa Eufemia, 94/3</streetAddress>
+            <telephoneNumber>030/3366569</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>38|2258|55421|510|8|19|327|38|2254|0|17/10/2018||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Operation_Rep_Coord_Agenzia_Brescia_Santa_Eufemia</gruppoSPReader>
+            <mailDelResponsabile>davide.lazzaroni@snaireteitalia.it</mailDelResponsabile>
+            <codAzienda>38</codAzienda>
+            <codDipendente>2258</codDipendente>
+            <codBu>327</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaireteitalia</company>
+            <sn>MUSSO</sn>
+            <givenName>PAOLO</givenName>
+            <mail>paolo.musso@snaireteitalia.it</mail>
+            <department>Area Operation - Rep. Coord. Agenzia Brescia Santa Eufemia</department>
+            <description>Funzione Retail Diretto</description>
+            <office>BU Betting Retail</office>
+            <jobTitle>Referente di Sala</jobTitle>
+            <manager>DAVIDE LAZZARONI</manager>
+            <l>BRESCIA</l>
+            <streetAddress>Brescia - Santa Eufemia, 94/3</streetAddress>
+            <telephoneNumber>030/3366569</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>38|2257|55421|510|8|19|327|38|2254|0|09/02/2019||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Operation_Rep_Coord_Agenzia_Brescia_Santa_Eufemia</gruppoSPReader>
+            <mailDelResponsabile>davide.lazzaroni@snaireteitalia.it</mailDelResponsabile>
+            <codAzienda>38</codAzienda>
+            <codDipendente>2257</codDipendente>
+            <codBu>327</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Area Scom</company>
+            <sn>DONOFRIO</sn>
+            <givenName>MARIA PASQUALINA</givenName>
+            <mail>maria.donofrio@areascom.it</mail>
+            <department/>
+            <description/>
+            <office/>
+            <jobTitle/>
+            <manager>PAOLA GIUSTI</manager>
+            <l>SESTO FIORENTINO</l>
+            <streetAddress>Sesto Fiorentino (FI) - P.zza V. Veneto, 29</streetAddress>
+            <telephoneNumber>055/442813</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>39|21|0|0|0|0|385|39|42|0|01/04/2003||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader/>
+            <mailDelResponsabile/>
+            <codAzienda>39</codAzienda>
+            <codDipendente>21</codDipendente>
+            <codBu>385</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>TESTA</sn>
+            <givenName>FEDERICA</givenName>
+            <mail>federica.testa@snaitech.it</mail>
+            <department>Area Marketing Planning &amp; Development</department>
+            <description>Direzione Marketing/Funzione Marketing Planning&amp;Development</description>
+            <office>Direzione Commerciale</office>
+            <jobTitle>Marketing Planning &amp; Project Development Coordinator</jobTitle>
+            <manager>RICCARDO BARTOLA</manager>
+            <l>MILANO</l>
+            <streetAddress>Milano - Piazza della Repubblica,32</streetAddress>
+            <telephoneNumber>87277</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|2287|9172|244|7|1658|218|28|1163|0|02/12/2019||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Marketing</gruppoSPReader>
+            <mailDelResponsabile>riccardo.bartola@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>2287</codDipendente>
+            <codBu>218</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>SUGARIS</sn>
+            <givenName>ALESSIA</givenName>
+            <mail>alessia.sugaris@snaitech.it</mail>
+            <department>Area Communications</department>
+            <description>Funzione Communications</description>
+            <office>Direzione Business Development &amp; Communications</office>
+            <jobTitle>Responsabile Eventi</jobTitle>
+            <manager>SARA BELLUZZI</manager>
+            <l>MILANO</l>
+            <streetAddress>Milano - Piazza della Repubblica,32</streetAddress>
+            <telephoneNumber>87213</telephoneNumber>
+            <mobile>335/1465313</mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|2289|9143|236|5909|1660|213|28|1166|0|16/12/2019||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Communications</gruppoSPReader>
+            <mailDelResponsabile>sara.belluzzi@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>2289</codDipendente>
+            <codBu>213</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>MARUCCI</sn>
+            <givenName>ALBERTO</givenName>
+            <mail>alberto.marucci@snaitech.it</mail>
+            <department>Area Risk Management</department>
+            <description>Funzione Risk Management</description>
+            <office>Funzione Risk Management</office>
+            <jobTitle>Risk Management Analyst</jobTitle>
+            <manager>RENATO CLAUDIO CHINI</manager>
+            <l>MILANO</l>
+            <streetAddress>Milano - Piazza della Repubblica,32</streetAddress>
+            <telephoneNumber>87112</telephoneNumber>
+            <mobile>338/6443108</mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|2290|7319|193|5056|763|254|28|1190|0|23/12/2019||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Risk_Management</gruppoSPReader>
+            <mailDelResponsabile>renato.chini@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>2290</codDipendente>
+            <codBu>254</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>NINFO</sn>
+            <givenName>DANIELE</givenName>
+            <mail>daniele.ninfo@snaitech.it</mail>
+            <department>Area Soluzioni Gaming Machine &amp; Servizi</department>
+            <description>Funzione Soluzioni</description>
+            <office>Direzione ICT</office>
+            <jobTitle>Analista Programmatore</jobTitle>
+            <manager>GIACOMO GALLUCCI</manager>
+            <l>ROMA</l>
+            <streetAddress>Roma - Via Goito, 58/A</streetAddress>
+            <telephoneNumber>87670</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|2291|137|181|5300|475|249|28|1242|0|23/12/2019||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_Soluzioni_Gaming_Machine_Servizi</gruppoSPReader>
+            <mailDelResponsabile>giacomo.gallucci@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>2291</codDipendente>
+            <codBu>249</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Area Scom</company>
+            <sn>DEGLI ANGELI</sn>
+            <givenName>ANNA MARIA</givenName>
+            <mail>annamaria.degliangeli@areascom.it</mail>
+            <department/>
+            <description/>
+            <office/>
+            <jobTitle/>
+            <manager>MARIA PASQUALINA DONOFRIO</manager>
+            <l>SESTO FIORENTINO</l>
+            <streetAddress>Sesto Fiorentino (FI) - P.zza V. Veneto, 29</streetAddress>
+            <telephoneNumber>055/442813</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>39|23|0|0|0|0|378|39|21|0|12/09/2011||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader/>
+            <mailDelResponsabile/>
+            <codAzienda>39</codAzienda>
+            <codDipendente>23</codDipendente>
+            <codBu>378</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Area Scom</company>
+            <sn>NERI</sn>
+            <givenName>SIBILLA</givenName>
+            <mail>sibilla.neri@areascom.it</mail>
+            <department/>
+            <description/>
+            <office/>
+            <jobTitle/>
+            <manager>MICHELA SANDRONI</manager>
+            <l>MONTEVARCHI</l>
+            <streetAddress>Montevarchi (AR) - Via Marie Curie, 25</streetAddress>
+            <telephoneNumber>055/981603</telephoneNumber>
+            <mobile></mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>39|99|0|0|0|0|375|39|1|0|17/06/2019||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader/>
+            <mailDelResponsabile/>
+            <codAzienda>39</codAzienda>
+            <codDipendente>99</codDipendente>
+            <codBu>375</codBu>
+        </xmlForExcel>
+        <xmlForExcel>
+            <company>Snaitech</company>
+            <sn>DI BARTOLOMEO</sn>
+            <givenName>ALESSIO</givenName>
+            <mail>alessio.dibartolomeo@snaitech.it</mail>
+            <department>Area District Management - DM Centro</department>
+            <description>Direzione Vendite</description>
+            <office>Direzione Commerciale</office>
+            <jobTitle>Senior Area Manager</jobTitle>
+            <manager>GIANNI CARERI</manager>
+            <l>ROMA</l>
+            <streetAddress>Roma - Via Goito, 58/A</streetAddress>
+            <telephoneNumber></telephoneNumber>
+            <mobile>335/1803808</mobile>
+            <thumbnailphoto></thumbnailphoto>
+            <customAttribute6>28|2288|9168|167|7|441|336|28|1054|0|09/12/2019||0</customAttribute6>
+            <gruppoSPOwner/>
+            <gruppoSPReader>SP_Area_District_Management_DM_Centro</gruppoSPReader>
+            <mailDelResponsabile>gianni.careri@snaitech.it</mailDelResponsabile>
+            <codAzienda>28</codAzienda>
+            <codDipendente>2288</codDipendente>
+            <codBu>336</codBu>
+        </xmlForExcel>
+    </xmlForExcel>
+</Risposta>"

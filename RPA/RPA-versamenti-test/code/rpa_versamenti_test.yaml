@@ -1,0 +1,44 @@
+# RPA versamenti test:  Configuration file
+
+APP:
+  ENVIRONMENT: test
+  DEBUG: True
+
+DATA:
+  DATA_PATH: "F:/SNAITECH dev/Workspaces/RPA/RPA-versamenti-test/data"
+  CONTI_PROVA: "Conti per prova.txt"
+  CONTI_REALI: "Bbpm49626.txt"
+  CONTI_TEST: "Bbpm49626 - test.txt"
+
+RULES:
+  - RULE_1:                                             # Limiti di versamento superati
+    CONTO_NUMERO: 6031980030000299
+    LIMITE_IMPORTO: 5000
+    VERIFICA: "Importo < LIMITE_IMPORTO"
+  - RULE_2:                                             # Nome ordinante diverso dal numero del conto inserito
+    CONTO_NUMERO: 6031980030000308
+    NOME_ORDINANTE: NON Giuseppe Ungaretti Snai
+    VERIFICA: "Ordinante != NOME_ORDINANTE"
+  - RULE_3:                                             # Conto sospeso
+    CONTO_NUMERO: 6031980030000309
+    CONTO_STATO: Sospeso
+    VERIFICA: "Stato = CONTO_STATO"
+  - RULE_4:                                             # Nome ordinante uguale al numero di conto inserito
+    CONTO_NUMERO: 6031980030000310
+    NOME_ORDINANTE: 6031980030000310
+    VERIFICA: "CONTO_NUMERO = NOME_ORDINANTE"
+  - RULE_5:                                             # Numero di conto inserito solo ultime 8 cifre
+    CONTO_NUMERO: 30000311
+    VERIFICA: "len(CONTO_NUMERO) = 8"
+
+# - RULE_6:                                             # Numero di conto inserito totale di 16 cifre
+#   CONTO_NUMERO: xxxxxx
+#   CONTO_STATO: attivo
+#   LIMITE_VERSAMENTO: 1000
+#   VERSAMENTO_ATTUALE:
+#   NOME_ORDINANTE:
+#   ORDINANTE_ATTUALE:
+#   USERNAME: xxxxxx
+#   PASSWORD: xxxxxx
+#   DOMANDA_SEGRETA: xxxxxx
+

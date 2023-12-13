@@ -1,0 +1,15 @@
+COD Filiale	Filiale
+1	Porcari (LU) - Via L.Boccherini, 39
+2	Milano - Via Caprilli, 30
+5	Porcari (LU) - Via L.Boccherini,7
+8	Roma - Via G.Ghislieri,13/C
+9	Porcari (LU) - Via Giuseppe Lazzareschi, 7
+13	Porcari (LU) - Via L.Boccherini, 57
+20	Roma - Via Goito, 58/A
+21	Milano - Piazza della Repubblica,32
+22	Peschiera Borromeo (MI)  - Via Walter Tobagi 10/12
+23	Milano - Via Caprilli, 30
+24	Roma - Via Goito, 58/A
+25	Montecatini Terme (PT) - V.le Cadorna, 30/B
+26	Milano - Via Lampugnano, 95
+27	Milano - Via Caprilli, 30

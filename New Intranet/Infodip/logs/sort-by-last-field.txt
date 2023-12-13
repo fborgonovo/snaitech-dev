@@ -1,0 +1,1 @@
+cat mod3.sql | perl -e "print sort {(split ' ', \$a)[-1] <=> (split ' ', \$b)[-1]} <>"

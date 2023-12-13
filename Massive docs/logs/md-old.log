@@ -1,0 +1,92 @@
+2023-07-21 19:21:44 DEBUG    __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_main.py:10:
+	this is a debug message
+2023-07-21 19:21:44 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_main.py:11:
+	this is an info message
+2023-07-21 19:21:44 WARNING  __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_main.py:12:
+	this is a warning message
+2023-07-21 19:21:44 ERROR    __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_main.py:13:
+	this is an error message
+2023-07-21 19:21:44 CRITICAL __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_main.py:14:
+	this is a critical message
+2023-07-21 19:21:44 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_main.py:21:
+	
+
+*** STARTING MASSIVE DOCS ***
+      23/07/21 19:21:44       
+
+2023-07-21 19:21:44 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_main.py:26:
+	Creating md_db
+2023-07-21 19:21:44 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_main.py:29:
+	Processing recipients...
+2023-07-21 19:29:41 DEBUG    __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_main.py:10:
+	this is a debug message
+2023-07-21 19:29:41 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_main.py:11:
+	this is an info message
+2023-07-21 19:29:41 WARNING  __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_main.py:12:
+	this is a warning message
+2023-07-21 19:29:41 ERROR    __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_main.py:13:
+	this is an error message
+2023-07-21 19:29:41 CRITICAL __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_main.py:14:
+	this is a critical message
+2023-07-21 19:29:41 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_main.py:21:
+	
+
+*** STARTING MASSIVE DOCS ***
+      23/07/21 19:29:41       
+
+2023-07-21 19:29:41 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_main.py:26:
+	Creating md_db
+2023-07-21 19:29:49 INFO     md_db.md_connect_db() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_db.py:52:
+	md_connect_db - BEGIN
+2023-07-21 19:30:11 INFO     md_db.md_connect_db() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_db.py:57:
+	Connected to existing mm DB
+2023-07-21 19:30:15 DEBUG    md_db.md_truncate_all() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_db.py:26:
+	md_truncate_all - BEGIN
+2023-07-21 19:30:15 DEBUG    md_db.md_truncate_table() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_db.py:11:
+	md_truncate_table - BEGIN
+2023-07-21 19:30:15 DEBUG    md_db.md_truncate_table() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_db.py:18:
+	
+RECIPIENTS table truncated:
+DELETE FROM RECIPIENTS;
+2023-07-21 19:30:15 DEBUG    md_db.md_truncate_table() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_db.py:23:
+	md_truncate_table - END
+2023-07-21 19:30:15 DEBUG    md_db.md_truncate_table() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_db.py:11:
+	md_truncate_table - BEGIN
+2023-07-21 19:30:15 DEBUG    md_db.md_truncate_table() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_db.py:18:
+	
+PROCESSED table truncated:
+DELETE FROM PROCESSED;
+2023-07-21 19:30:15 DEBUG    md_db.md_truncate_table() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_db.py:23:
+	md_truncate_table - END
+2023-07-21 19:30:15 DEBUG    md_db.md_truncate_table() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_db.py:11:
+	md_truncate_table - BEGIN
+2023-07-21 19:30:15 DEBUG    md_db.md_truncate_table() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_db.py:18:
+	
+ANOMALIES table truncated:
+DELETE FROM ANOMALIES;
+2023-07-21 19:30:15 DEBUG    md_db.md_truncate_table() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_db.py:23:
+	md_truncate_table - END
+2023-07-21 19:30:15 DEBUG    md_db.md_truncate_all() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_db.py:32:
+	md_truncate_all - END
+2023-07-21 19:30:30 DEBUG    md_db.md_connect_db() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_db.py:209:
+	md_connect_db - END
+2023-07-21 19:30:30 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_main.py:29:
+	Processing recipients...
+2023-07-21 19:31:41 DEBUG    __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_main.py:10:
+	this is a debug message
+2023-07-21 19:31:41 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_main.py:11:
+	this is an info message
+2023-07-21 19:31:41 WARNING  __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_main.py:12:
+	this is a warning message
+2023-07-21 19:31:41 ERROR    __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_main.py:13:
+	this is an error message
+2023-07-21 19:31:41 CRITICAL __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_main.py:14:
+	this is a critical message
+2023-07-21 19:31:41 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_main.py:21:
+	
+
+*** STARTING MASSIVE DOCS ***
+      23/07/21 19:31:41       
+
+2023-07-21 19:31:41 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Massive docs\md_main.py:26:
+	Creating md_db

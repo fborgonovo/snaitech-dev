@@ -1,0 +1,10 @@
+INSERT INTO [dipendenti].[test].[emailxmanager]
+SELECT
+	 [id_dipendente]
+    ,[samAccountName]
+    ,[cognome]
+    ,[nome]
+    ,[mail]
+    ,[nome]+' '+[cognome]
+    ,[codRespStringa]
+FROM [dipendenti].[dbo].[dipendentiAD]

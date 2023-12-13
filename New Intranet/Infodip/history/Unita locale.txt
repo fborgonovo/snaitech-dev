@@ -1,0 +1,5 @@
+COD Filiale	Unità Locale
+1	Porcari (LU)
+2	Milano (MI)
+3	Roma (RM)
+6	Montecatini Terme (PT)

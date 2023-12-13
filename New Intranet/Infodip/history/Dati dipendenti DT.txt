@@ -1,0 +1,114 @@
+Codice Azienda:                  28
+Codice Dipendente:               0
+Nome Dipendente:                 MORGAN
+Cognome Dipendente:              RICCIARDI
+Codice Fiscale:                  RCCMGN71A01G843G
+eMail:                           MORGAN.RICCIARDI@snaitech.it
+Codice Azienda Responsabile:     28
+Codice Dipendente Responsabile:  1142
+ID Avatar:                       0
+ID Divisione:                    5300
+Divisione:                       Direzione ICT
+ID Squadra:                      17
+Squadra:                         Funzione ICT
+ID Reparto:                      1300
+Reparto:                         Area ICT
+ID Mansione:                     266
+Mansione:                        Direttore ICT
+Nome Responsabile:               FABIO
+eMail Responsabile:              chiara.sordelli2@snaitech.it
+Unita' Locale:                   1 -  
+Unita' Produttiva:               2 -  Milano - Via Caprilli, 30
+Responsabile:                    Schiavolin Fabio
+
+Codice Azienda:                  28
+Codice Dipendente:               0
+Nome Dipendente:                 LUIGI
+Cognome Dipendente:              GRECO
+Codice Fiscale:                  GRCLGU66D07E506E
+eMail:                           luigi.greco@snaitech.it
+Codice Azienda Responsabile:     28
+Codice Dipendente Responsabile:  86
+ID Avatar:                       0
+ID Divisione:                    5300
+Divisione:                       Direzione ICT
+ID Squadra:                      179
+Squadra:                         Funzione Digital Transformation
+ID Reparto:                      97
+Reparto:                         Area Digital Transformation
+ID Mansione:                     523
+Mansione:                        Responsabile Digital Transfor.
+Nome Responsabile:               MORGAN
+eMail Responsabile:              MORGAN.RICCIARDI@snaitech.it
+Unita' Locale:                   1 -  
+Unita' Produttiva:               2 -  Milano - Via Caprilli, 30
+Responsabile:                    Ricciardi Morgan
+
+Codice Azienda:                  28
+Codice Dipendente:               0
+Nome Dipendente:                 FURIO ANGELO
+Cognome Dipendente:              BORGONOVO
+Codice Fiscale:                  BRGFNG58C28F205D
+eMail:                           furio.borgonovo@snai.it
+Codice Azienda Responsabile:     28
+Codice Dipendente Responsabile:  1246
+ID Avatar:                       0
+ID Divisione:                    5300
+Divisione:                       Direzione ICT
+ID Squadra:                      179
+Squadra:                         Funzione Digital Transformation
+ID Reparto:                      97
+Reparto:                         Area Digital Transformation
+ID Mansione:                     717
+Mansione:                        Esperto Digital Transformation
+Nome Responsabile:               LUIGI
+eMail Responsabile:              luigi.greco@snaitech.it
+Unita' Locale:                   1 -  
+Unita' Produttiva:               2 -  Milano - Via Caprilli, 30
+Responsabile:                    Greco Luigi
+
+Codice Azienda:                  28
+Codice Dipendente:               0
+Nome Dipendente:                 LORENZO
+Cognome Dipendente:              FRANCESCONI
+Codice Fiscale:                  FRNLNZ63A25H501E
+eMail:                           lorenzo.francesconi@snaitech.it
+Codice Azienda Responsabile:     28
+Codice Dipendente Responsabile:  1246
+ID Avatar:                       0
+ID Divisione:                    5300
+Divisione:                       Direzione ICT
+ID Squadra:                      179
+Squadra:                         Funzione Digital Transformation
+ID Reparto:                      97
+Reparto:                         Area Digital Transformation
+ID Mansione:                     1624
+Mansione:                        Esperto Technical & Digital Transformation
+Nome Responsabile:               LUIGI
+eMail Responsabile:              luigi.greco@snaitech.it
+Unita' Locale:                   1 -  
+Unita' Produttiva:               2 -  Milano - Via Caprilli, 30
+Responsabile:                    Greco Luigi
+
+Codice Azienda:                  28
+Codice Dipendente:               0
+Nome Dipendente:                 VINCENZO
+Cognome Dipendente:              RUSSO
+Codice Fiscale:                  RSSVCN72R26G273Q
+eMail:                           vincenzo.russo@snaitech.it
+Codice Azienda Responsabile:     28
+Codice Dipendente Responsabile:  1246
+ID Avatar:                       0
+ID Divisione:                    5300
+Divisione:                       Direzione ICT
+ID Squadra:                      179
+Squadra:                         Funzione Digital Transformation
+ID Reparto:                      97
+Reparto:                         Area Digital Transformation
+ID Mansione:                     1621
+Mansione:                        Specialista Digital Transformation
+Nome Responsabile:               LUIGI
+eMail Responsabile:              luigi.greco@snaitech.it
+Unita' Locale:                   1 -
+Unita' Produttiva:               2 -  Milano - Via Caprilli, 30
+Responsabile:                    Greco Luigi

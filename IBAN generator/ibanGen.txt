@@ -1,0 +1,141 @@
+https://community.appway.com/screen/kb/article/generating-and-validating-an-iban-1683400256881
+
+An international bank account number, known as an IBAN, consists of up to 34 alphanumeric characters. An IBAN is comprised of:
+
+    A country code (taken from the ISO:3166 standard)
+    A two-digit control number
+    A number, referred to as the 'Basic Bank Account Number' (BBAN) that includes:
+        The domestic bank account number
+        The branch identifier (also known as a 'sort code' in the UK and Ireland)
+        Potential routing information
+
+Note: Permitted IBAN characters are the digits 0 to 9, and the 26 upper-case Latin alphabetic characters A to Z. This applies even in countries (e.g. Thailand) where these characters are not used in the national language.
+Generating an IBAN
+
+There is a set, additive procedure to determine the IBAN of a bank account. In this section, we're going to generate an IBAN for a Swiss bank account.
+
+For Switzerland, the structure of an IBAN is:
+
+    CH
+    Control number ('checksum')
+    Assigned bank code for the specific bank (for example, the fictitious Banque Cantonale du Appway is assigned 00346 – the clearing number '346' padded with zeros to generate a total of 5 digits)
+    Account number, e.g. 33221115556T
+
+Applying this structure, the full IBAN of our example account would be CH750034633221115556T
+Calculating the Control Number
+
+The control number enables a sanity check of the bank account number to confirm its integrity before submitting a transaction.
+
+You'll see that the control number in this IBAN is 75. How is that calculated?
+
+Important! The actual process to compute the control number may vary depending on local regulations and processes for computing IBANs. The ISO standard for checksums and other calculations is ISO 7064.
+
+In Switzerland, the control number ('checksum') is computed as modulo 97-10. In order to compute a modulo 97-10:
+
+    Divide the number by 97
+    Take the remainder of the division and subtract it from (97+1)
+    The result of this operation is your modulo 97-10 value
+
+Here's an example Appway script:
+
+Function computeChecksum(String $tmpIban) : String Begin
+   // Remove leading 0s
+   $tmpIban := REPLACE($tmpIban, '^0+', '');
+   // Iteratively compute the remainder of divide by 97 (because number is very large)
+   String $tmp := SUBSTRING($tmpIban, 0, 9);
+   Integer $remainder := Integer.valueOf($tmp) % 97;
+   Integer $pos := 9;
+   While $pos < SIZE($tmpIban) Do
+      $tmp := TOSTRING($remainder) & SUBSTRING($tmpIban, $pos, MIN($pos + 7, SIZE($tmpIban)));
+      $remainder := Integer.valueOf($tmp) % 97;
+      $pos := $pos + 7;
+   End
+   // Checksum is complement to 98
+   Integer $checksum := 98 - $remainder;
+   Return IF($checksum < 10, '0', '') & TOSTRING($checksum);
+End
+
+For guidance on how to calculate modulo 97-10, see for example:
+
+    Calcul du Chiffre (PDF in French), Prüfzifferberechnung (PDF in German)
+    General information about modulo calculation
+
+Concatenating the Elements
+
+Be aware that this is an example of the steps to generate an IBAN for a Swiss bank account. Because there are different rules for different countries, always check with your client or research online for the latest information.
+
+The steps for generating an IBAN are as follows:
+
+    Concatenate:
+        The country code (CH) followed by 00: CH00
+        The bank code, padded to 5 digits (e.g. '346' becomes 00346)
+        The bank account number
+        Using our fictional bank, this would generate the following string: CH000034633221115556T
+    Move the first four digits to the end of the string
+        The example string becomes: 0034633221115556TCH00
+    Using the conversion table at the end of this article, convert the country code, and any other letters in the account identifier, into numbers.
+        Example: Switzerland – 'CH' becomes 1217
+        Example: Luxembourg – 'LU' becomes 2130
+        Example: Italy – 'IT' becomes 1829
+        Our example string becomes: 003463322111555629121700
+    Compute the Modulo 97-10 of this number
+        Using our example string: Divide 003463322111555629121700 by 97 and keep the remainder, which is 24
+    Calculate the checksum as (97+1) minus the remainder
+        Our example gives a checksum of 98-24 = 75
+    Build the IBAN as 'country code | checksum | five-digit bank number | account number'
+        Here's the final IBAN: CH750034633221115556T
+    Check the total length of the IBAN is correct according to the country requirements
+
+Here's an example script:
+
+Function computeIban(String $bankNumber, String $accountNb, String $countryCode) : String Begin
+   If EMPTY($accountNb) Then
+      Return null;
+   End
+   // Build IBAN in order to compute checksum
+   String $tmpIban := $bankNumber & $this.transcodeAlphaToDigit($accountNb & $countryCode & '00');
+   String $chksum := $this.computeChecksum($tmpIban);
+   // Rebuild IBAN with checksum
+   Return $countryCode & $chksum & $bankNumber & $accountNb;
+End
+
+Validating an IBAN
+
+Sometimes you may need to validate an IBAN, without having first generated it.
+
+    Move the first four digits of the IBAN to the end of the string.
+        Our example string becomes: 0034633221115556TCH75
+
+    Using the values in the conversion table at the end of this article, convert the country code, and any other letters in the account identifier, into numbers.
+        Example: Switzerland – 'CH' becomes 1217
+        Example: Luxembourg – 'LU' becomes 2130
+        Example: Italy – 'IT' becomes 1829
+        Our example string becomes: 003463322111555629121775
+
+    Compute the Modulo 97-10 of this number
+
+    Calculate the checksum as (97+1) minus the remainder
+
+    Verify that the checksum generated matches the digits in position 3 and 4 of the IBAN
+
+Here's an example script:
+
+Function verify(String $iban) : Boolean Begin
+   String $countryCode := SUBSTRING($iban, 0, 2);
+   String $checkSum := SUBSTRING($iban, 2, 4);
+   String $tmpIban := $this.transcodeAlphaToDigit(SUBSTRING($iban, 4) & $countryCode) & '00';
+   String $newCheckSum := $this.computeChecksum($tmpIban);
+   Return $checkSum == $newCheckSum;
+End
+
+Conversion Table
+
+This table contains the letter-number mapping used when generating IBANs.
+Letter/code	Letter/code	Letter/code	Letter/code
+A = 10	H = 17	O = 24	V = 31
+B = 11	I = 18	P = 25	W = 32
+C = 12	J = 19	Q = 26	X = 33
+D =13	K = 20	R = 27	Y = 34
+E = 14	L = 21	S = 28	Z = 35
+F = 15	M = 22	T = 29
+G = 16	N = 23	U = 30

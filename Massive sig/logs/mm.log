@@ -1,0 +1,552 @@
+2022-09-17 10:09:12 DEBUG    <PID 19196:MainProcess> __main__.<module>() f:\SNAITECH dev\Workspaces\Massive mail\mm_main.py:14:
+	
+
+*** STARTING MASSIVE MAIL ***
+      22/09/17 10:09:12       
+
+2022-09-17 10:09:12 DEBUG    <PID 19196:MainProcess> __main__.<module>() f:\SNAITECH dev\Workspaces\Massive mail\mm_main.py:16:
+	Connecting to mm_db. Creating if it does not exist
+2022-09-17 10:09:12 DEBUG    <PID 19196:MainProcess> mm_db.mm_connect_db() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:52:
+	mm_connect_db - BEGIN
+2022-09-17 10:09:12 DEBUG    <PID 19196:MainProcess> mm_db.mm_connect_db() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:62:
+	F:/SNAITECH dev/Workspaces/Massive mail/data/mm_db.db not present. Creating
+2022-09-17 10:09:12 DEBUG    <PID 19196:MainProcess> mm_db.mm_create_table() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:35:
+	mm_create_table - BEGIN
+2022-09-17 10:09:12 DEBUG    <PID 19196:MainProcess> mm_db.mm_create_table() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:40:
+	Dropping table RECIPIENTS if exists
+2022-09-17 10:09:12 DEBUG    <PID 19196:MainProcess> mm_db.mm_create_table() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:43:
+	Creating table in F:/SNAITECH dev/Workspaces/Massive mail/data/mm_db.db:
+
+CREATE TABLE RECIPIENTS (
+                '99' TEXT,
+                'RAGIONE SOCIALE' TEXT,
+                '_PIVA' TEXT NOT NULL PRIMARY KEY,
+                '_CF' TEXT,
+                'SEDE' TEXT,
+                'Posizione incrociata' TEXT,
+                'Posizione Duplicata' TEXT,
+                'Crif Number' TEXT,
+                'Denominazione' TEXT,
+                'Partita Iva' TEXT,
+                'REA' TEXT,
+                'CCIAA' TEXT,
+                'Codice fiscale' TEXT,
+                'Indirizzo societa' TEXT,
+                'Cap societa' TEXT,
+                'Comune societa' TEXT,
+                'Frazione societa' TEXT,
+                'Provincia societa' TEXT,
+                'Regione' TEXT,
+                'Stato Impresa Cribis' TEXT,
+                'Natura giuridica' TEXT,
+                'Tipo natura giuridica' TEXT,
+                'dummy' TEXT,
+                'Cognome Esponente' TEXT,
+                'Nome Esponente' TEXT,
+                'Sesso' TEXT,
+                'Data di nascita' TEXT,
+                'Provincia di Nascita' TEXT,
+                'Comune di Nascita' TEXT,
+                'Nazione di Nascita' TEXT,
+                'Cittadinanza' TEXT,
+                'Indirizzo RL' TEXT,
+                'CAP RL' TEXT,
+                'Comune RL' TEXT,
+                'Provincia RL' TEXT,
+                'Frazione RL' TEXT,
+                'Altre indicazioni' TEXT,
+                'Nazione' TEXT,
+                'Telefono' TEXT,
+                'Email' TEXT,
+                'PEC' TEXT,
+                'status' TEXT
+              );
+          
+2022-09-17 10:09:12 DEBUG    <PID 19196:MainProcess> mm_db.mm_create_table() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:49:
+	mm_create_table - END
+2022-09-17 10:09:12 DEBUG    <PID 19196:MainProcess> mm_db.mm_create_table() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:35:
+	mm_create_table - BEGIN
+2022-09-17 10:09:12 DEBUG    <PID 19196:MainProcess> mm_db.mm_create_table() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:40:
+	Dropping table PROCESSED if exists
+2022-09-17 10:09:12 DEBUG    <PID 19196:MainProcess> mm_db.mm_create_table() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:43:
+	Creating table in F:/SNAITECH dev/Workspaces/Massive mail/data/mm_db.db:
+
+CREATE TABLE PROCESSED (
+                'piva' TEXT NOT NULL PRIMARY KEY,
+                'email' TEXT,
+                'voucher' TEXT,
+                'sent_date' TEXT,
+                'activation_date' TEXT,
+                'status' TEXT
+                );
+            
+2022-09-17 10:09:12 DEBUG    <PID 19196:MainProcess> mm_db.mm_create_table() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:49:
+	mm_create_table - END
+2022-09-17 10:09:12 DEBUG    <PID 19196:MainProcess> mm_db.mm_create_table() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:35:
+	mm_create_table - BEGIN
+2022-09-17 10:09:12 DEBUG    <PID 19196:MainProcess> mm_db.mm_create_table() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:40:
+	Dropping table ANOMALIES if exists
+2022-09-17 10:09:12 DEBUG    <PID 19196:MainProcess> mm_db.mm_create_table() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:43:
+	Creating table in F:/SNAITECH dev/Workspaces/Massive mail/data/mm_db.db:
+
+CREATE TABLE ANOMALIES (
+                'piva' TEXT NOT NULL PRIMARY KEY,
+                'email' TEXT,
+                'pec' TEXT,
+                'voucher' TEXT,
+                'sent_date' TEXT,
+                'activation_date' TEXT,
+                'status' TEXT
+                );
+            
+2022-09-17 10:09:12 DEBUG    <PID 19196:MainProcess> mm_db.mm_create_table() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:49:
+	mm_create_table - END
+2022-09-17 10:09:12 DEBUG    <PID 19196:MainProcess> mm_db.mm_connect_db() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:138:
+	mm_connect_db - END
+2022-09-17 10:09:12 DEBUG    <PID 19196:MainProcess> __main__.<module>() f:\SNAITECH dev\Workspaces\Massive mail\mm_main.py:20:
+	Processing recipients...
+2022-09-17 10:09:12 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:85:
+	mm_process_recipients - BEGIN
+2022-09-17 10:09:12 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:94:
+	Reading records from: F:/SNAITECH dev/Workspaces/Massive mail/data/_contacts work - partial.xlsx
+2022-09-17 10:09:12 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:95:
+	TAB: Imprese_File clean - COLS: ALL)
+2022-09-17 10:09:15 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:104:
+	Reading vouchers from: F:/SNAITECH dev/Workspaces/Massive mail/data/_voucher work - partial.xlsx
+2022-09-17 10:09:15 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:105:
+	TAB: vouchers - COL: voucher)
+2022-09-17 10:09:15 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:126:
+	Processing record #0: 02278450396, BLACK CAFE' DI HU ZHIGE, 3315003168, 1017108343@qq.com;  , -, WS935-WPXGLCIVFN
+2022-09-17 10:09:15 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:184:
+	Record #0/1 successful inserted into RECIPIENTS table.
+2022-09-17 10:09:15 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:14:
+	mm_check_email - BEGIN
+2022-09-17 10:09:15 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:20:
+	mm_check_email: email found -> 1017108343@qq.com
+2022-09-17 10:09:15 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:36:
+	mm_check_email - END
+2022-09-17 10:09:15 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:54:
+	
+
+mm_process_record - BEGIN
+2022-09-17 10:09:15 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:41:
+	mm_send_record - BEGIN
+2022-09-17 10:09:15 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:43:
+	Sending record: 02278450396, BLACK CAFE' DI HU ZHIGE, 3315003168, 1017108343@qq.com, WS935-QA8WE2WTQH
+2022-09-17 10:09:15 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:136:
+	mm_insert_dossier - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:154:
+	Dossier inserted: Document signature (Diego Zorro)
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:156:
+	                  {{Doc1_Title}}
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:158:
+	                  {{Stranger_email}}U
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:160:
+	                  {{EnvelopeID}}_01
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:161:
+	                  SIGN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:179:
+	mm_insert_dossier - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:49:
+	mm_send_record - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:64:
+	Record processed: 02278450396, 1017108343@qq.com, WS935-QA8WE2WTQH, '', '', 0
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_db.mm_query() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:182:
+	Querying mm DB: SELECT * FROM PROCESSED WHERE piva == '02278450396'
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_db.mm_query() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:197:
+	Record with piva #02278450396 found
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:78:
+	Record inserted: 02278450396, 1017108343@qq.com, WS935-QA8WE2WTQH, 2022-09-17 10:09:15.788393, , 0
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:80:
+	mm_process_record - END
+
+2022-09-17 10:09:23 INFO     <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:196:
+	Record #0: 0, 02278450396, BLACK CAFE' DI HU ZHIGE, 3315003168, 1017108343@qq.com, , WS935-QA8WE2WTQH
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:126:
+	Processing record #1: 02594430353, HAPPY HOUR DI WU SHIJIN, 0522620048 - 3298482508, 104190885@qq.com;  , -, WS935-G5I83CAN9C
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:184:
+	Record #1/2 successful inserted into RECIPIENTS table.
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:14:
+	mm_check_email - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:20:
+	mm_check_email: email found -> 104190885@qq.com
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:36:
+	mm_check_email - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:54:
+	
+
+mm_process_record - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:41:
+	mm_send_record - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:43:
+	Sending record: 02594430353, HAPPY HOUR DI WU SHIJIN, 0522620048 - 3298482508, 104190885@qq.com, WS935-4VXQ6AJY6L
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:136:
+	mm_insert_dossier - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:154:
+	Dossier inserted: Document signature (Diego Zorro)
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:156:
+	                  {{Doc1_Title}}
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:158:
+	                  {{Stranger_email}}U
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:160:
+	                  {{EnvelopeID}}_01
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:161:
+	                  SIGN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:179:
+	mm_insert_dossier - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:49:
+	mm_send_record - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:64:
+	Record processed: 02594430353, 104190885@qq.com, WS935-4VXQ6AJY6L, '', '', 0
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_db.mm_query() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:182:
+	Querying mm DB: SELECT * FROM PROCESSED WHERE piva == '02594430353'
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_db.mm_query() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:197:
+	Record with piva #02594430353 found
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:78:
+	Record inserted: 02594430353, 104190885@qq.com, WS935-4VXQ6AJY6L, 2022-09-17 10:09:23.419925, , 0
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:80:
+	mm_process_record - END
+
+2022-09-17 10:09:23 INFO     <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:196:
+	Record #1: 1, 02594430353, HAPPY HOUR DI WU SHIJIN, 0522620048 - 3298482508, 104190885@qq.com, , WS935-4VXQ6AJY6L
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:126:
+	Processing record #2: 02023600477, SALA SLOT ROYAL SRL, 3331226767, 1135204976@QQ.COM;  , -, WS935-J4OSN0BFG8
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:184:
+	Record #2/3 successful inserted into RECIPIENTS table.
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:14:
+	mm_check_email - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:20:
+	mm_check_email: email found -> 1135204976@QQ.COM
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:36:
+	mm_check_email - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:54:
+	
+
+mm_process_record - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:41:
+	mm_send_record - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:43:
+	Sending record: 02023600477, SALA SLOT ROYAL SRL, 3331226767, 1135204976@QQ.COM, WS935-LCFJUDG4TW
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:136:
+	mm_insert_dossier - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:154:
+	Dossier inserted: Document signature (Diego Zorro)
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:156:
+	                  {{Doc1_Title}}
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:158:
+	                  {{Stranger_email}}U
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:160:
+	                  {{EnvelopeID}}_01
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:161:
+	                  SIGN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:179:
+	mm_insert_dossier - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:49:
+	mm_send_record - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:64:
+	Record processed: 02023600477, 1135204976@QQ.COM, WS935-LCFJUDG4TW, '', '', 0
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_db.mm_query() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:182:
+	Querying mm DB: SELECT * FROM PROCESSED WHERE piva == '02023600477'
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_db.mm_query() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:197:
+	Record with piva #02023600477 found
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:78:
+	Record inserted: 02023600477, 1135204976@QQ.COM, WS935-LCFJUDG4TW, 2022-09-17 10:09:23.455887, , 0
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:80:
+	mm_process_record - END
+
+2022-09-17 10:09:23 INFO     <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:196:
+	Record #2: 2, 02023600477, SALA SLOT ROYAL SRL, 3331226767, 1135204976@QQ.COM, , WS935-LCFJUDG4TW
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:126:
+	Processing record #3: 02470750973, LUCKY GAMES DI LIU FANGFANG & C. SAS, 3331226767, 1135204976@qq.com;  , -, WS935-3L2V6A6W8U
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:184:
+	Record #3/4 successful inserted into RECIPIENTS table.
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:14:
+	mm_check_email - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:20:
+	mm_check_email: email found -> 1135204976@qq.com
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:36:
+	mm_check_email - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:54:
+	
+
+mm_process_record - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:41:
+	mm_send_record - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:43:
+	Sending record: 02470750973, LUCKY GAMES DI LIU FANGFANG & C. SAS, 3331226767, 1135204976@qq.com, WS935-KRGH9EIP9C
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:136:
+	mm_insert_dossier - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:154:
+	Dossier inserted: Document signature (Diego Zorro)
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:156:
+	                  {{Doc1_Title}}
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:158:
+	                  {{Stranger_email}}U
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:160:
+	                  {{EnvelopeID}}_01
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:161:
+	                  SIGN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:179:
+	mm_insert_dossier - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:49:
+	mm_send_record - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:64:
+	Record processed: 02470750973, 1135204976@qq.com, WS935-KRGH9EIP9C, '', '', 0
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_db.mm_query() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:182:
+	Querying mm DB: SELECT * FROM PROCESSED WHERE piva == '02470750973'
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_db.mm_query() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:197:
+	Record with piva #02470750973 found
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:78:
+	Record inserted: 02470750973, 1135204976@qq.com, WS935-KRGH9EIP9C, 2022-09-17 10:09:23.488854, , 0
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:80:
+	mm_process_record - END
+
+2022-09-17 10:09:23 INFO     <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:196:
+	Record #3: 3, 02470750973, LUCKY GAMES DI LIU FANGFANG & C. SAS, 3331226767, 1135204976@qq.com, , WS935-KRGH9EIP9C
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:126:
+	Processing record #4: 03063650125, SALA VLT 168 DI ZHANG XIANGYANG, 3331226767, 1135204976@qq.com;  , -, WS935-MWW6XUXWC0
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:184:
+	Record #4/5 successful inserted into RECIPIENTS table.
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:14:
+	mm_check_email - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:20:
+	mm_check_email: email found -> 1135204976@qq.com
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:36:
+	mm_check_email - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:54:
+	
+
+mm_process_record - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:41:
+	mm_send_record - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:43:
+	Sending record: 03063650125, SALA VLT 168 DI ZHANG XIANGYANG, 3331226767, 1135204976@qq.com, WS935-TJLAYIGDPM
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:136:
+	mm_insert_dossier - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:154:
+	Dossier inserted: Document signature (Diego Zorro)
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:156:
+	                  {{Doc1_Title}}
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:158:
+	                  {{Stranger_email}}U
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:160:
+	                  {{EnvelopeID}}_01
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:161:
+	                  SIGN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:179:
+	mm_insert_dossier - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:49:
+	mm_send_record - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:64:
+	Record processed: 03063650125, 1135204976@qq.com, WS935-TJLAYIGDPM, '', '', 0
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_db.mm_query() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:182:
+	Querying mm DB: SELECT * FROM PROCESSED WHERE piva == '03063650125'
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_db.mm_query() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:197:
+	Record with piva #03063650125 found
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:78:
+	Record inserted: 03063650125, 1135204976@qq.com, WS935-TJLAYIGDPM, 2022-09-17 10:09:23.517822, , 0
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:80:
+	mm_process_record - END
+
+2022-09-17 10:09:23 INFO     <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:196:
+	Record #4: 4, 03063650125, SALA VLT 168 DI ZHANG XIANGYANG, 3331226767, 1135204976@qq.com, , WS935-TJLAYIGDPM
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:126:
+	Processing record #5: 01450380686, ORSINI TIZIANA, 0854680144, tizianaorsini99@tiscali.it;  , 0010021530001@postacertificata.tabaccai.it , WS935-894B4F0TTH
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:184:
+	Record #5/6 successful inserted into RECIPIENTS table.
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:14:
+	mm_check_email - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:28:
+	mm_check_email: pec and email found. Choosing pec -> [tizianaorsini99@tiscali.it] - [0010021530001@postacertificata.tabaccai.it]
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:36:
+	mm_check_email - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:54:
+	
+
+mm_process_record - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:41:
+	mm_send_record - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:43:
+	Sending record: 01450380686, ORSINI TIZIANA, 0854680144, 0010021530001@postacertificata.tabaccai.it, WS935-138C8N1DK5
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:136:
+	mm_insert_dossier - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:154:
+	Dossier inserted: Document signature (Diego Zorro)
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:156:
+	                  {{Doc1_Title}}
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:158:
+	                  {{Stranger_email}}U
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:160:
+	                  {{EnvelopeID}}_01
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:161:
+	                  SIGN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:179:
+	mm_insert_dossier - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:49:
+	mm_send_record - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:64:
+	Record processed: 01450380686, 0010021530001@postacertificata.tabaccai.it, WS935-138C8N1DK5, '', '', 0
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_db.mm_query() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:182:
+	Querying mm DB: SELECT * FROM PROCESSED WHERE piva == '01450380686'
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_db.mm_query() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:197:
+	Record with piva #01450380686 found
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:78:
+	Record inserted: 01450380686, 0010021530001@postacertificata.tabaccai.it, WS935-138C8N1DK5, 2022-09-17 10:09:23.546792, , 0
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:80:
+	mm_process_record - END
+
+2022-09-17 10:09:23 INFO     <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:196:
+	Record #5: 5, 01450380686, ORSINI TIZIANA, 0854680144, , 0010021530001@postacertificata.tabaccai.it, WS935-138C8N1DK5
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:126:
+	Processing record #6: 01284980685, CARESTIA ANTONIO, 0858542105 - 0858542105, antonio.carestia68@gmail.com;  , 0010312280001@postacertificata.tabaccai.it , WS935-W53YJ9T3M9
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:184:
+	Record #6/7 successful inserted into RECIPIENTS table.
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:14:
+	mm_check_email - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:28:
+	mm_check_email: pec and email found. Choosing pec -> [antonio.carestia68@gmail.com] - [0010312280001@postacertificata.tabaccai.it]
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:36:
+	mm_check_email - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:54:
+	
+
+mm_process_record - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:41:
+	mm_send_record - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:43:
+	Sending record: 01284980685, CARESTIA ANTONIO, 0858542105 - 0858542105, 0010312280001@postacertificata.tabaccai.it, WS935-OLCPVVB6WC
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:136:
+	mm_insert_dossier - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:154:
+	Dossier inserted: Document signature (Diego Zorro)
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:156:
+	                  {{Doc1_Title}}
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:158:
+	                  {{Stranger_email}}U
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:160:
+	                  {{EnvelopeID}}_01
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:161:
+	                  SIGN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:179:
+	mm_insert_dossier - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:49:
+	mm_send_record - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:64:
+	Record processed: 01284980685, 0010312280001@postacertificata.tabaccai.it, WS935-OLCPVVB6WC, '', '', 0
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_db.mm_query() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:182:
+	Querying mm DB: SELECT * FROM PROCESSED WHERE piva == '01284980685'
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_db.mm_query() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:197:
+	Record with piva #01284980685 found
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:78:
+	Record inserted: 01284980685, 0010312280001@postacertificata.tabaccai.it, WS935-OLCPVVB6WC, 2022-09-17 10:09:23.574764, , 0
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:80:
+	mm_process_record - END
+
+2022-09-17 10:09:23 INFO     <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:196:
+	Record #6: 6, 01284980685, CARESTIA ANTONIO, 0858542105 - 0858542105, , 0010312280001@postacertificata.tabaccai.it, WS935-OLCPVVB6WC
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:126:
+	Processing record #7: 01847300462, LERA MARCO, 0583961657, ricevitoria.osteria@libero.it;  , 0010373400001@postacertificata.tabaccai.it , WS935-S6N7XLW0PW
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:184:
+	Record #7/8 successful inserted into RECIPIENTS table.
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:14:
+	mm_check_email - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:28:
+	mm_check_email: pec and email found. Choosing pec -> [ricevitoria.osteria@libero.it] - [0010373400001@postacertificata.tabaccai.it]
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:36:
+	mm_check_email - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:54:
+	
+
+mm_process_record - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:41:
+	mm_send_record - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:43:
+	Sending record: 01847300462, LERA MARCO, 0583961657, 0010373400001@postacertificata.tabaccai.it, WS935-CAC1W7UVUK
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:136:
+	mm_insert_dossier - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:154:
+	Dossier inserted: Document signature (Diego Zorro)
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:156:
+	                  {{Doc1_Title}}
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:158:
+	                  {{Stranger_email}}U
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:160:
+	                  {{EnvelopeID}}_01
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:161:
+	                  SIGN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:179:
+	mm_insert_dossier - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:49:
+	mm_send_record - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:64:
+	Record processed: 01847300462, 0010373400001@postacertificata.tabaccai.it, WS935-CAC1W7UVUK, '', '', 0
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_db.mm_query() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:182:
+	Querying mm DB: SELECT * FROM PROCESSED WHERE piva == '01847300462'
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_db.mm_query() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:197:
+	Record with piva #01847300462 found
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:78:
+	Record inserted: 01847300462, 0010373400001@postacertificata.tabaccai.it, WS935-CAC1W7UVUK, 2022-09-17 10:09:23.604734, , 0
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:80:
+	mm_process_record - END
+
+2022-09-17 10:09:23 INFO     <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:196:
+	Record #7: 7, 01847300462, LERA MARCO, 0583961657, , 0010373400001@postacertificata.tabaccai.it, WS935-CAC1W7UVUK
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:126:
+	Processing record #8: 02359340961, MARTINO 2000, 0266401122 - 3355202677, claudio@martino2000.it;  , 0010398410001@POSTACERTIFICATA.TABACCAI.IT; fe.dylogbuffetti@sicurezzapostale.it, WS935-LN77YLWMSU
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:184:
+	Record #8/9 successful inserted into RECIPIENTS table.
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:14:
+	mm_check_email - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:28:
+	mm_check_email: pec and email found. Choosing pec -> [claudio@martino2000.it] - [0010398410001@POSTACERTIFICATA.TABACCAI.IT]
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_check_email() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:36:
+	mm_check_email - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:54:
+	
+
+mm_process_record - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:41:
+	mm_send_record - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:43:
+	Sending record: 02359340961, MARTINO 2000, 0266401122 - 3355202677, 0010398410001@POSTACERTIFICATA.TABACCAI.IT, WS935-OWU0STYO2G
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:136:
+	mm_insert_dossier - BEGIN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:154:
+	Dossier inserted: Document signature (Diego Zorro)
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:156:
+	                  {{Doc1_Title}}
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:158:
+	                  {{Stranger_email}}U
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:160:
+	                  {{EnvelopeID}}_01
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:161:
+	                  SIGN
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_insert_dossier.mm_insert_dossier() f:\SNAITECH dev\Workspaces\Massive mail\mm_insert_dossier.py:179:
+	mm_insert_dossier - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_send_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:49:
+	mm_send_record - END
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:64:
+	Record processed: 02359340961, 0010398410001@POSTACERTIFICATA.TABACCAI.IT, WS935-OWU0STYO2G, '', '', 0
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_db.mm_query() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:182:
+	Querying mm DB: SELECT * FROM PROCESSED WHERE piva == '02359340961'
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_db.mm_query() f:\SNAITECH dev\Workspaces\Massive mail\mm_db.py:197:
+	Record with piva #02359340961 found
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:78:
+	Record inserted: 02359340961, 0010398410001@POSTACERTIFICATA.TABACCAI.IT, WS935-OWU0STYO2G, 2022-09-17 10:09:23.634702, , 0
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> mm_process_recipients.mm_process_record() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:80:
+	mm_process_record - END
+
+2022-09-17 10:09:23 INFO     <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:196:
+	Record #8: 8, 02359340961, MARTINO 2000, 0266401122 - 3355202677, , 0010398410001@POSTACERTIFICATA.TABACCAI.IT, WS935-OWU0STYO2G
+2022-09-17 10:09:23 WARNING  <PID 19196:MainProcess> mm_process_recipients.mm_process_recipients() f:\SNAITECH dev\Workspaces\Massive mail\mm_process_recipients.py:123:
+	record #{mm_pr_processed}: No more vouchers available
+2022-09-17 10:09:23 WARNING  <PID 19196:MainProcess> __main__.<module>() f:\SNAITECH dev\Workspaces\Massive mail\mm_main.py:27:
+	Task complete, #{processed} recipients processed, #{anomalies} anomalies.
+2022-09-17 10:09:23 DEBUG    <PID 19196:MainProcess> __main__.<module>() f:\SNAITECH dev\Workspaces\Massive mail\mm_main.py:38:
+	
+
+*** MASSIVE MAIL COMPLETE ***
+      22/09/17 10:09:23       
+Processed: 9 - Anomalies: 0
+Elapsed: 0:00:11.297820
+

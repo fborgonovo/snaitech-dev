@@ -1,0 +1,164 @@
+{
+  "externalId": "2wedtgw43aw4et",
+  "loadedBy": "XYZ4242",
+  "loadedByRole": "XYZ4242",
+  "sysGenerator": "SB3",
+  "subject": "string",
+  "starred": false,
+  "useType": "CORPORATE",
+  "expireAt": "2017-07-21T17:32:28Z",
+  "config": {
+    "additionalProp1": {}
+  },
+  "joinDocuments": "string",
+  "documents": [
+    {
+      "mimeType": "application/pdf",
+      "title": "Example document",
+      "order": 0,
+      "visibilityLevel": "ALL",
+      "externalId": "2wedtgw43aw4et",
+      "ooxmlSignStrategy": null,
+      "tag": "string",
+      "createdAt": "2017-07-21T17:32:28Z",
+      "cloudService": "DROPBOX",
+      "url": "https://docbase.contoso.com/base/xyz/ab1234/ccf89d8a-642c-4ce6-8052-dd353f4618c0.pdf"
+    }
+  ],
+  "documentClass": {
+    "name": "string",
+    "fields": [
+      {
+        "name": "field1",
+        "dateValue": "2017-07-21T17:32:28Z"
+      },
+      {
+        "name": "field1",
+        "numericValue": "42.42"
+      },
+      {
+        "name": "field1",
+        "textValue": "Sample text"
+      }
+    ]
+  },
+  "messages": {
+    "text": "string",
+    "userMessages": [
+      {
+        "userExternalId": "XYZ4242",
+        "text": "string"
+      }
+    ]
+  },
+  "process": {
+    "tasks": [
+      {
+        "externalId": "tid1672671",
+        "order": 0,
+        "taskAction": "WORK",
+        "taskActionType": "DIGITAL_PDF",
+        "actions": [
+          {
+            "appearance": {
+              "blankSignatureFieldName": "string",
+              "compassAppearance": {
+                "page": 1,
+                "position": "CENTRAL"
+              },
+              "coordAppearance": {
+                "page": 1,
+                "llx": 133,
+                "lly": 133,
+                "urx": 133,
+                "ury": 133
+              },
+              "invisible": true,
+              "tagAppearance": {
+                "cornerType": "SINGLE_BOTTOM_LEFT_CORNER_TYPE",
+                "endTagPattern": "string",
+                "startTagPattern": "string",
+                "xoffset": 133,
+                "yoffset": 133
+              }
+            },
+            "config": {
+              "customSignatureText": "Signed by #nnss#",
+              "customSignatureTextL1": "OPD",
+              "customSignatureTextL2": "NAN",
+              "graphEmail": "john.doe@email.it",
+              "graphFieldDesc": "Sign here",
+              "graphFieldName": "Signature_1",
+              "graphFiscalCode": "AAABBB12C12D123E",
+              "graphSignerName": "John Doe",
+              "graphSignerRole": "Contractor",
+              "groupId": "group1",
+              "labeltext": "Write here your free text",
+              "storeBiometricData": false,
+              "visibilityStatus": "V",
+              "additionalProp1": {}
+            },
+            "coordinates": {
+              "page": 1,
+              "rotation": 0,
+              "llx": 133,
+              "lly": 133,
+              "urx": 133,
+              "ury": 133
+            },
+            "documentExternalId": "2wedtgw43aw4et",
+            "appearanceContent": "field-12771827818",
+            "mandatory": true,
+            "type": "SIGN"
+          }
+        ],
+        "howMany": 1,
+        "actors": [
+          {
+            "roleExternalId": "XYZ4242"
+          },
+          {
+            "userExternalId": "XYZ4242"
+          }
+        ],
+        "config": {
+          "additionalProp1": {}
+        },
+        "protocolRegistry": "string",
+        "automaticSignature": {
+          "id": "string",
+          "code": "ASI1",
+          "automaticSignatureType": "SEA"
+        },
+        "authorization": {
+          "pin": "123456",
+          "email": "john@doe.com",
+          "phoneNumber": "+393273333333333",
+          "authorizationType": "PIN"
+        }
+      }
+    ],
+    "newUsers": [
+      {
+        "adDomain": "string",
+        "email": "string",
+        "emailLanguage": "string",
+        "externalId": "XYZ4242",
+        "name": "string",
+        "phoneNumber": "string",
+        "roles": [
+          "MANAGER"
+        ],
+        "surname": "string",
+        "timezone": "string",
+        "username": "string",
+        "company": "string",
+        "organizationUnit": "string",
+        "fiscalCode": "string",
+        "title": "string",
+        "enabled": true,
+        "newUserStrategy": "REJECT_IF_DIFFERENT"
+      }
+    ]
+  }
+}

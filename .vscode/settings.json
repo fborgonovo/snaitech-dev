@@ -1,0 +1,19 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "ttdb",
+            "database": "${workspaceFolder:snaitech-dev}/Timetable/data/tt_db.db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "ttdb_test",
+            "database": "${workspaceFolder:snaitech-dev}/Timetable/data/tt_test_db.db"
+        }
+    ],
+    "python.analysis.typeCheckingMode": "basic",
+    "mssql.connections": []
+}

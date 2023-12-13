@@ -1,0 +1,401 @@
+{
+	"info": {
+		"_postman_id": "356b6ab2-4657-40a1-bd59-09c2c856b3e2",
+		"name": "GS5 - Integr. API - Oauth2 - v4.2 v2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16379405"
+	},
+	"item": [
+		{
+			"name": "insertEnvelop",
+			"item": [
+				{
+					"name": "02a. insertEnvelope - QES",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"var uuid = require('uuid');\r",
+									"var envelopId = uuid.v4();\r",
+									"pm.environment.set(\"EnvelopeID\", envelopId);\r",
+									"console.log(\"EnvelopeID:\" +envelopId);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"envelope\": {\r\n        \"useType\": \"CORPORATE\",\r\n        \"externalId\": \"{{EnvelopeID}}\",\r\n        \"subject\": \"Document signature (Diego Zorro)\",\r\n        \"sysGenerator\": \"{{DMS_SysGen}}\",\r\n        \"sendingMode\": \"IMMEDIATE\",\r\n        \"trustLevel\": \"DIGITAL_PDF\",\r\n        \"starred\": true,\r\n        \"expirationFirstReminder\": 3,\r\n        \"expireAt\": 2618619519000,\r\n        \"confString\": null,\r\n        \"joinDocuments\": null,\r\n        \"documents\": [\r\n            {\r\n                \"externalId\": \"{{EnvelopeID}}_01\",\r\n                \"title\": \"{{Doc1_Title}}\",\r\n                \"mimeType\": \"application/pdf\",\r\n                \"originalFname\": \"{{Doc1_FName}}\",\r\n                \"uri\": null,\r\n                \"bytes\": \"{{Doc1_Content}}\"\r\n            }\r\n        ],\r\n        \"docClass\": null,\r\n        \"commonMessages\": {\r\n            \"text\": \"Please, sign the attached document.\",\r\n            \"userMessages\": null\r\n        },\r\n        \"procDef\": {\r\n            \"tasks\": [\r\n                {\r\n                    \"type\": \"HUMAN\",\r\n                    \"confString\": \"{\\\"receiveInvitationMailToSign\\\":true,\\\"receiveCompletedEnvelopeMail\\\":true,“signAllVisible”:”N”}\",\r\n                    \"order\": 1,\r\n                    \"actorExpr\": \"{{Stranger_email}}U\",\r\n                    \"action\": \"WORK\",\r\n                    \"howMany\": 1,\r\n                    \"actionDefs\": [\r\n                        {\r\n                            \"docExternalId\": \"{{EnvelopeID}}_01\",\r\n                            \"type\": \"SIGN\",\r\n                            \"mandatory\": true,\r\n                            \"confString\": null,\r\n                            \"appearance\": {\r\n                                \"invisible\": false,\r\n                                \"annotationContent\": null,\r\n                                \"tagAppearance\": {\r\n                                    \"cornerType\": \"SINGLE_BOTTOM_LEFT_CORNER_TYPE\",\r\n                                    \"startTagPattern\": \"{{Doc1_Tag}}\",\r\n                                    \"xoffset\": 0.0,\r\n                                    \"yoffset\": 0.0\r\n                                }\r\n                            }\r\n                        }\r\n                    ]\r\n                }\r\n            ],\r\n            \"newUsers\": [\r\n                {\r\n                    \"username\": \"{{Stranger_email}}\",\r\n                    \"name\": \"{{Stranger_Name}}\",\r\n                    \"surname\": \"{{Stranger_Surename}}\",\r\n                    \"phoneNumber\": \"{{Stranger_Phone}}\",\r\n                    \"email\": \"{{Stranger_email}}\",\r\n                    \"emailLanguage\": \"EN\",\r\n                    \"timezone\": \"Europe/Rome\",\r\n                    \"countryCode\": \"IT\",\r\n                    \"serialType\": \"TIN\",\r\n                    \"fiscalCode\": \"{{Stranger_ID}}\",\r\n                    \"externalId\": \"{{Stranger_email}}\",\r\n                    \"newUserStrategy\": \"EMAIL_BASED\",\r\n                    \"roles\": [\r\n                        \"STRANGER\"\r\n                    ]\r\n                }\r\n            ]\r\n        }\r\n    },\r\n    \"addUsersInCC\": [\r\n        {\r\n            \"externalId\": \"fabio.carnevale@infocert.it\",\r\n            \"email\": \"fabio.carnevale@infocert.it\",\r\n            \"surname\": \"User Surname\",\r\n            \"name\": \"User Name\",\r\n            \"addUsersInCCStrategy\": \"EMAIL_ALWAYS\"\r\n        }\r\n    ],\r\n    \"responseWithEnvelope\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/envelopes",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"envelopes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "04a. insertEnvelope - SES wPwd",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"var uuid = require('uuid');\r",
+									"var envelopId = uuid.v4();\r",
+									"pm.environment.set(\"EnvelopeID\", envelopId);\r",
+									"console.log(\"EnvelopeID:\" +envelopId);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"envelope\": {\r\n        \"useType\": \"CORPORATE\",\r\n        \"externalId\": \"{{EnvelopeID}}\",\r\n        \"subject\": \"Document signature (Diego Zorro)\",\r\n        \"sysGenerator\": \"{{DMS_SysGen}}\",\r\n        \"sendingMode\": \"IMMEDIATE\",\r\n        \"trustLevel\": \"INTERNAL_PDF\",\r\n        \"starred\": true,\r\n        \"expirationFirstReminder\": 3,\r\n        \"expireAt\": 2618619519000,\r\n        \"confString\": null,\r\n        \"joinDocuments\": null,\r\n        \"documents\": [\r\n            {\r\n                \"externalId\": \"{{EnvelopeID}}_01\",\r\n                \"title\": \"{{Doc1_Title}}\",\r\n                \"mimeType\": \"application/pdf\",\r\n                \"originalFname\": \"{{Doc1_FName}}\",\r\n                \"uri\": null,\r\n                \"bytes\": \"{{Doc1_Content}}\"\r\n            }\r\n        ],\r\n        \"docClass\": null,\r\n        \"commonMessages\": {\r\n            \"text\": \"Please, sign the attached document.\",\r\n            \"userMessages\": null\r\n        },\r\n        \"procDef\": {\r\n            \"tasks\": [\r\n                {\r\n                    \"type\": \"HUMAN\",\r\n                    \"confString\": \"{\\\"receiveInvitationMailToSign\\\":true,\\\"receiveCompletedEnvelopeMail\\\":true,“signAllVisible”:”N”}\",\r\n                    \"order\": 1,\r\n                    \"actorExpr\": \"{{Stranger_email}}U\",\r\n                    \"action\": \"WORK\",\r\n                    \"howMany\": 1,\r\n                    \"actionDefs\": [\r\n                        {\r\n                            \"docExternalId\": \"{{EnvelopeID}}_01\",\r\n                            \"type\": \"SIGN\",\r\n                            \"mandatory\": true,\r\n                            \"confString\": null,\r\n                            \"appearance\": {\r\n                                \"invisible\": false,\r\n                                \"annotationContent\": null,\r\n                                \"tagAppearance\": {\r\n                                    \"cornerType\": \"SINGLE_BOTTOM_LEFT_CORNER_TYPE\",\r\n                                    \"startTagPattern\": \"{{Doc1_Tag}}\",\r\n                                    \"xoffset\": 0.0,\r\n                                    \"yoffset\": 0.0\r\n                                }\r\n                            }\r\n                        }\r\n                    ]\r\n                }\r\n            ],\r\n            \"newUsers\": [\r\n                {\r\n                    \"username\": \"{{Stranger_email}}\",\r\n                    \"name\": \"{{Stranger_Name}}\",\r\n                    \"surname\": \"{{Stranger_Surename}}\",\r\n                    \"phoneNumber\": \"{{Stranger_Phone}}\",\r\n                    \"email\": \"{{Stranger_email}}\",\r\n                    \"emailLanguage\": \"EN\",\r\n                    \"timezone\": \"America/Colombia\",\r\n                    \"countryCode\": \"CO\",\r\n                    \"serialType\": \"PAS\",\r\n                    \"fiscalCode\": \"{{Stranger_ID}}\",\r\n                    \"externalId\": \"{{Stranger_email}}\",\r\n                    \"newUserStrategy\": \"EMAIL_BASED\",\r\n                    \"roles\": [\r\n                        \"STRANGER\"\r\n                    ]\r\n                }\r\n            ]\r\n        }\r\n    },\r\n    \"addUsersInCC\": [\r\n        {\r\n            \"externalId\": \"fabio.carnevale.p@libero.it\",\r\n            \"email\": \"fabio.carnevale.p@libero.it\",\r\n            \"surname\": \"User Surname\",\r\n            \"name\": \"User Name\",\r\n            \"addUsersInCCStrategy\": \"EMAIL_ALWAYS\"\r\n        }\r\n    ],\r\n    \"responseWithEnvelope\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/envelopes",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"envelopes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "04b. insEnv 2Signers - SES wPwd",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"var uuid = require('uuid');\r",
+									"var envelopId = uuid.v4();\r",
+									"pm.environment.set(\"EnvelopeID\", envelopId);\r",
+									"console.log(\"EnvelopeID:\" +envelopId);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"envelope\": {\r\n        \"useType\": \"CORPORATE\",\r\n        \"externalId\": \"{{EnvelopeID}}\",\r\n        \"subject\": \"Document signature (Diego Zorro)\",\r\n        \"sysGenerator\": \"{{DMS_SysGen}}\",\r\n        \"sendingMode\": \"IMMEDIATE\",\r\n        \"trustLevel\": \"INTERNAL_PDF\",\r\n        \"starred\": true,\r\n        \"expirationFirstReminder\": 3,\r\n        \"expireAt\": 2618619519000,\r\n        \"confString\": null,\r\n        \"joinDocuments\": null,\r\n        \"documents\": [\r\n            {\r\n                \"externalId\": \"{{EnvelopeID}}_01\",\r\n                \"title\": \"{{Doc1_Title}}\",\r\n                \"mimeType\": \"application/pdf\",\r\n                \"originalFname\": \"{{Doc1_FName}}\",\r\n                \"uri\": null,\r\n                \"bytes\": \"{{Doc2_2signers_Content}}\"\r\n            }\r\n        ],\r\n        \"docClass\": null,\r\n        \"commonMessages\": {\r\n            \"text\": \"Please, sign the attached document.\",\r\n            \"userMessages\": null\r\n        },\r\n        \"procDef\": {\r\n            \"tasks\": [\r\n                {\r\n                    \"type\": \"HUMAN\",\r\n                    \"confString\": \"{\\\"receiveInvitationMailToSign\\\":true,\\\"receiveCompletedEnvelopeMail\\\":true,“signAllVisible”:”N”}\",\r\n                    \"order\": 1,\r\n                    \"actorExpr\": \"{{Stranger_email}}U\",\r\n                    \"action\": \"WORK\",\r\n                    \"howMany\": 1,\r\n                    \"actionDefs\": [\r\n                        {\r\n                            \"docExternalId\": \"{{EnvelopeID}}_01\",\r\n                            \"type\": \"SIGN\",\r\n                            \"mandatory\": true,\r\n                            \"confString\": null,\r\n                            \"appearance\": {\r\n                                \"invisible\": false,\r\n                                \"annotationContent\": null,\r\n                                \"tagAppearance\": {\r\n                                    \"cornerType\": \"SINGLE_BOTTOM_LEFT_CORNER_TYPE\",\r\n                                    \"startTagPattern\": \"{{Doc1_Tag}}\",\r\n                                    \"xoffset\": 0.0,\r\n                                    \"yoffset\": 0.0\r\n                                }\r\n                            }\r\n                        }\r\n                    ]\r\n                },\r\n                {\r\n                    \"type\": \"HUMAN\",\r\n                    \"confString\": \"{\\\"receiveInvitationMailToSign\\\":true,\\\"receiveCompletedEnvelopeMail\\\":true,“signAllVisible”:”N”}\",\r\n                    \"order\": 2,\r\n                    \"actorExpr\": \"{{internal_Signer}}U\",\r\n                    \"action\": \"WORK\",\r\n                    \"howMany\": 1,\r\n                    \"actionDefs\": [\r\n                        {\r\n                            \"docExternalId\": \"{{EnvelopeID}}_01\",\r\n                            \"type\": \"SIGN\",\r\n                            \"mandatory\": true,\r\n                            \"confString\": null,\r\n                            \"appearance\": {\r\n                                \"invisible\": false,\r\n                                \"annotationContent\": null,\r\n                                \"tagAppearance\": {\r\n                                    \"cornerType\": \"SINGLE_BOTTOM_LEFT_CORNER_TYPE\",\r\n                                    \"startTagPattern\": \"{{Doc1_Tag2}}\",\r\n                                    \"xoffset\": 0.0,\r\n                                    \"yoffset\": 0.0\r\n                                }\r\n                            }\r\n                        }\r\n                    ]\r\n                }\r\n            ],\r\n            \"newUsers\": [\r\n                {\r\n                    \"username\": \"{{Stranger_email}}\",\r\n                    \"name\": \"{{Stranger_Name}}\",\r\n                    \"surname\": \"{{Stranger_Surename}}\",\r\n                    \"phoneNumber\": \"{{Stranger_Phone}}\",\r\n                    \"email\": \"{{Stranger_email}}\",\r\n                    \"emailLanguage\": \"EN\",\r\n                    \"timezone\": \"Europe/Rome\",\r\n                    \"countryCode\": \"IT\",\r\n                    \"serialType\": \"TIN\",\r\n                    \"fiscalCode\": \"{{Stranger_ID}}\",\r\n                    \"externalId\": \"{{Stranger_email}}\",\r\n                    \"newUserStrategy\": \"EMAIL_BASED\",\r\n                    \"roles\": [\r\n                        \"STRANGER\"\r\n                    ]\r\n                }\r\n            ]\r\n        }\r\n    },\r\n    \"addUsersInCC\": [\r\n        {\r\n            \"externalId\": \"diego.brotto@infocert.it\",\r\n            \"email\": \"diego.brotto@infocert.it\",\r\n            \"surname\": \"User Surname\",\r\n            \"name\": \"User Name\",\r\n            \"addUsersInCCStrategy\": \"EMAIL_ALWAYS\"\r\n        }\r\n    ],\r\n    \"responseWithEnvelope\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/envelopes",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"envelopes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "99. deleteEnvelope (OAuth)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/envelopes/{{EnvelopeID}}/delete",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"envelopes",
+								"{{EnvelopeID}}",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "getEnvelop",
+			"item": [
+				{
+					"name": "03b. getEnvelopeStatus (OAuth) - Test",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/envelopes/{{EnvelopeID}}/status",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"envelopes",
+								"{{EnvelopeID}}",
+								"status"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "03. getEnvelope (OAuth)",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "{{baseURL}}/envelopes/{{EnvelopeID}}/withDocuments",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"envelopes",
+								"{{EnvelopeID}}",
+								"withDocuments"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Services",
+			"item": [
+				{
+					"name": "98. createUser - enabled",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"externalId\": \"k\",\n    \"username\": \"pmorales_int_presales\",\n    \"surname\": \"SampleManager\",\n    \"name\": \"viaAPI\",\n    \"email\": \"diego.brotto@infocert.it\",\n    \"emailLanguage\": \"en\",\n    \"pwdHashingAlg\": \"BCRYPT\",\n    \"password\": \"PASS\",\n    \"timezone\": \"Europe/Rome\",\n    \"company\": null,\n    \"organizationUnit\": null,\n    \"fiscalCode\": null,\n    \"title\": null,\n    \"enabled\": true,\n    \"countryCode\": \"it\",\n    \"serialType\": null,\n    \"roles\": [\n        \"MANAGER\"\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/users",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "98. createUser - disabled",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"externalId\": \"Sample_manager_API\",\n    \"username\": \"Sample_manager_API\",\n    \"surname\": \"SampleManager\",\n    \"name\": \"viaAPI\",\n    \"email\": \"diego.brotto@infocert.it\",\n    \"emailLanguage\": \"en\",\n    \"pwdHashingAlg\": \"BCRYPT\",\n    \"password\": \"pass!\",\n    \"timezone\": \"Europe/Rome\",\n    \"roles\": [\n        \"MANAGER\"\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/users",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "98b. modifyUser",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"externalId\": \"Sample_manager_API\",\n    \"username\": \"Sample_manager_API\",\n    \"surname\": \"SampleManager\",\n    \"name\": \"viaAPI\",\n    \"email\": \"diego.brotto@infocert.it\",\n    \"emailLanguage\": \"en\",\n    \"pwdHashingAlg\": \"BCRYPT\",\n    \"password\": \"Pass\",\n    \"timezone\": \"Europe/Rome\",\n    \"enabled\": true,\n    \"roles\": [\n        \"MANAGER\"\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/users/{{added_user}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users",
+								"{{added_user}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "98c. deleteUser",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"customerCode\" : \"d30378baff2eea1f60daf156faddb63c\",\n\"username\" : {{added_user}}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://gosign-be.infocert.it/gosign/services/v1/deleteUser/",
+							"protocol": "https",
+							"host": [
+								"gosign-be",
+								"infocert",
+								"it"
+							],
+							"path": [
+								"gosign",
+								"services",
+								"v1",
+								"deleteUser",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "oauth2",
+		"oauth2": [
+			{
+				"key": "tokenName",
+				"value": "{{access_token}}",
+				"type": "string"
+			},
+			{
+				"key": "tokenType",
+				"value": "bearer",
+				"type": "string"
+			},
+			{
+				"key": "accessToken",
+				"value": "40f7dc0d-324e-49a3-a33b-acb21739d4c0",
+				"type": "string"
+			},
+			{
+				"key": "accessTokenUrl",
+				"value": "{{AuthURL}}",
+				"type": "string"
+			},
+			{
+				"key": "password",
+				"value": "{{User_Password}}",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "{{User_Name}}",
+				"type": "string"
+			},
+			{
+				"key": "clientSecret",
+				"value": "{{Client_Secret}}",
+				"type": "string"
+			},
+			{
+				"key": "clientId",
+				"value": "{{Client_ID}}",
+				"type": "string"
+			},
+			{
+				"key": "grant_type",
+				"value": "password_credentials",
+				"type": "string"
+			},
+			{
+				"key": "client_authentication",
+				"value": "body",
+				"type": "string"
+			},
+			{
+				"key": "addTokenTo",
+				"value": "header",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

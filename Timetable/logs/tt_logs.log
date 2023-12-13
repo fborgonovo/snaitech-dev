@@ -1,0 +1,74 @@
+2023-02-21 14:25:01 DEBUG    __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_main.py:30:
+	Connecting to tt_db. Creating if it does not exist
+2023-02-21 14:25:01 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_main.py:35:
+	Loading students...
+2023-02-21 14:25:01 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_main.py:39:
+	Loading teachers...
+2023-02-21 14:25:01 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_main.py:43:
+	Loading rules...
+2023-02-21 14:25:01 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_main.py:47:
+	Loading constraints...
+2023-02-21 14:25:01 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_main.py:51:
+	Loading exceptions...
+2023-02-21 14:25:01 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_main.py:55:
+	Building timetable...
+2023-02-21 14:25:01 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_main.py:59:
+	Saving timetable...
+2023-02-21 14:25:01 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_main.py:67:
+	
+
+***  TIMETABLE  COMPLETE  ***
+
+Start time: 23/02/21 14:25:01
+End time:   23/02/21 14:25:01
+Elapsed: 0:00:00.087505
+Processed: 0 - Anomalies: 0
+
+2023-02-21 14:26:00 DEBUG    __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_main.py:30:
+	Connecting to tt_db. Creating if it does not exist
+2023-02-21 14:26:01 DEBUG    tt_db.tt_connect_db() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_db.py:48:
+	tt_connect_db - BEGIN
+2023-02-21 14:26:01 INFO     tt_db.tt_connect_db() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_db.py:53:
+	Connected to existing tt DB
+2023-02-21 14:26:01 DEBUG    tt_db.tt_connect_db() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_db.py:55:
+	C:/Users/borgonovo_furio/OneDrive - Playtech/Documents/snaitech-dev/Timetable/data/tt_db.db Truncate table
+2023-02-21 14:26:01 DEBUG    tt_db.tt_truncate_table() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_db.py:10:
+	tt_truncate_table - BEGIN
+2023-02-21 14:26:01 DEBUG    tt_db.tt_truncate_table() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_db.py:14:
+	
+DELETE FROM PROCESSED;
+2023-02-21 14:26:01 DEBUG    tt_db.tt_truncate_table() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_db.py:25:
+	tt_truncate_table - END
+2023-02-21 14:26:01 DEBUG    tt_db.tt_truncate_table() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_db.py:10:
+	tt_truncate_table - BEGIN
+2023-02-21 14:26:01 DEBUG    tt_db.tt_truncate_table() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_db.py:14:
+	
+DELETE FROM ANOMALIES;
+2023-02-21 14:26:01 DEBUG    tt_db.tt_truncate_table() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_db.py:25:
+	tt_truncate_table - END
+2023-02-21 14:26:01 DEBUG    tt_db.tt_connect_db() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_db.py:73:
+	tt_connect_db - END
+2023-02-21 14:26:05 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_main.py:35:
+	Loading students...
+2023-02-21 14:26:09 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_main.py:39:
+	Loading teachers...
+2023-02-21 14:26:15 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_main.py:43:
+	Loading rules...
+2023-02-21 14:26:17 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_main.py:47:
+	Loading constraints...
+2023-02-21 14:26:27 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_main.py:51:
+	Loading exceptions...
+2023-02-21 14:26:31 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_main.py:55:
+	Building timetable...
+2023-02-21 14:26:34 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_main.py:59:
+	Saving timetable...
+2023-02-21 14:26:49 INFO     __main__.<module>() c:\Users\borgonovo_furio\OneDrive - Playtech\Documents\snaitech-dev\Timetable\tt_main.py:67:
+	
+
+***  TIMETABLE  COMPLETE  ***
+
+Start time: 23/02/21 14:25:56
+End time:   23/02/21 14:26:37
+Elapsed: 0:00:40.408749
+Processed: 0 - Anomalies: 0
+

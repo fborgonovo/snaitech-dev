@@ -1,0 +1,3 @@
+﻿"ComputerName","File","FunctionName","Level","Line","Message","ModuleName","Runspace","Tags","TargetObject","Timestamp","Type","Username"
+"SUN","C:\Users\Utente\OneDrive\Documenti\SNAITECH\Workspaces\Misc\Test\log-test.ps1","log-test.ps1","Output","28","Intermediate result: 15","<Unknown>","679e65bc-d633-4305-a6af-7c10ad3bf064","",,"25-Jan-20 18:01:03","Information, Debug","SUN\Furio"
+"SUN","C:\Users\Utente\OneDrive\Documenti\SNAITECH\Workspaces\Misc\Test\log-test.ps1","log-test.ps1","Output","28","Intermediate result: 6","<Unknown>","679e65bc-d633-4305-a6af-7c10ad3bf064","",,"25-Jan-20 18:01:03","Information, Debug","SUN\Furio"

@@ -1,0 +1,83 @@
+try:
+    with open('file.log') as file:
+        read_data = file.read()
+except FileNotFoundError as fnf_error:
+    print(fnf_error)
+
+Output: [Errno 2] No such file or directory: 'file.log'
+
+== == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == ==
+
+# The Python 3 version traceback.
+
+import traceback
+
+def log_traceback(ex):
+    tb_lines = traceback.format_exception(ex.__class__, ex, ex.__traceback__)
+    tb_text = ''.join(tb_lines)
+    # I'll let you implement the ExceptionLogger class,
+    # and the timestamping.
+    exception_logger.log(tb_text)
+
+try:
+    x = get_number()
+except Exception as ex:
+    log_traceback(ex)
+    
+== == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == ==
+
+# !/usr/bin/env python
+#
+# https: // stackoverflow.com/questions/52582685/using-asyncio-queue-for-producer-consumer-flow
+#
+
+import asyncio
+import random
+import time
+
+
+async def rnd_sleep(t):
+    # sleep for T seconds on average
+    await asyncio.sleep(t * random.random() * 2)
+
+
+async def producer(queue):
+    while True:
+        token = random.random()
+        print(f'produced {token}')
+        if token < .05:
+            break
+        await queue.put(token)
+        await rnd_sleep(.1)
+
+
+async def consumer(queue):
+    while True:
+        token = await queue.get()
+        await rnd_sleep(.3)
+        queue.task_done()
+        print(f'consumed {token}')
+
+
+async def main():
+    queue = asyncio.Queue()
+
+    # fire up the both producers and consumers
+    producers = [asyncio.create_task(producer(queue))
+                 for _ in range(3)]
+    consumers = [asyncio.create_task(consumer(queue))
+                 for _ in range(10)]
+
+    # with both producers and consumers running, wait for
+    # the producers to finish
+    await asyncio.gather(*producers)
+    print('---- done producing')
+
+    # wait for the remaining tasks to be processed
+    await queue.join()
+
+    # cancel the consumers, which are now idle
+    for c in consumers:
+        c.cancel()
+
+asyncio.run(main())
