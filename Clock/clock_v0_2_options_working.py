@@ -1,5 +1,6 @@
 import tkinter
 
+
 class ClockOptions(object):
 
     root = None
@@ -13,8 +14,8 @@ class ClockOptions(object):
         tki = tkinter
         self.top = tki.Toplevel(ClockOptions.root)
 
-        frm = tki.Frame(self.top, borderwidth=4, relief='ridge')
-        frm.pack(fill='both', expand=True)
+        frm = tki.Frame(self.top, borderwidth=4, relief="ridge")
+        frm.pack(fill="both", expand=True)
 
         label = tki.Label(frm, text=msg)
         label.pack(padx=4, pady=4)
@@ -25,12 +26,12 @@ class ClockOptions(object):
             self.entry = tki.Entry(frm)
             self.entry.pack(pady=4)
 
-            b_submit = tki.Button(frm, text='Submit')
-            b_submit['command'] = lambda: self.entry2dict(dict_key)
+            b_submit = tki.Button(frm, text="Submit")
+            b_submit["command"] = lambda: self.entry2dict(dict_key)
             b_submit.pack()
 
-        b_cancel = tki.Button(frm, text='Cancel')
-        b_cancel['command'] = self.top.destroy
+        b_cancel = tki.Button(frm, text="Cancel")
+        b_cancel["command"] = self.top.destroy
         b_cancel.pack(padx=4, pady=4)
 
     def entry2dict(self, dict_key):

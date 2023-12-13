@@ -22,7 +22,7 @@ class Clock:
         self.clock_windows.overrideredirect(True)
 
         self.clock_windows.clock_button = Button(clock_windows, text=datetime.now().strftime('%H:%M:%S'), bg='black', fg='green')
-        button_font = font.Font(family='Advanced Pixel LCD-7', size='40', weight='bold')
+        button_font = font.Font(family='Advanced Pixel LCD-7', size=40, weight='bold')
         self.clock_windows.clock_button['font'] = button_font
         self.clock_windows.clock_button.pack()
 
@@ -39,13 +39,13 @@ class Clock:
         clock_options_dlg = Tk()
 
         clock_options = ClockOptions
-        clock_options.root = clock_options_dlg
+#        clock_options.root = clock_options_dlg
 
         b_options1 = Button(clock_options_dlg, text='Clock options')
         b_options1['command'] = lambda: clock_options('Foreground:', (settings, 'foreground'))
         b_options1.pack()
 
-        b_options2 = Button(root, text='Foreground:')
+        b_options2 = Button(root, text='Foreground')
         b_options2['command'] = lambda: clock_options(settings['foreground'])
         b_options2.pack()
 
