@@ -1,4 +1,4 @@
-import 
+import customtkinter
 import tkinterDnD
 
 customtkinter.set_ctk_parent_class(tkinterDnD.Tk)
